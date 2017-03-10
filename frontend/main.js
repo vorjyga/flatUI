@@ -1,4 +1,10 @@
 'use strict';
-alert("hi!");
 
 import './main.styl';
+
+function requireAll(requireContext) {
+  return requireContext.keys().map(requireContext);
+}
+
+requireAll(require.context('./blocks/', true, /^\.\/.*\.js$/));
+
