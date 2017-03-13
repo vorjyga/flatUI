@@ -1,0 +1,13 @@
+//div.buttons
+//  h1.buttons__text STANDARD BUTTONS
+//  button.buttons__first button1
+//  button.buttons__second button2
+//  button.buttons__third button3
+//  button.buttons__fourth button4t
+
+mixin button(size, color, text)
+  button(
+    class = 'buttons__' + size,
+    class = "buttons__btn",
+    class = "buttons__" + color
+  )= text

@@ -28,8 +28,11 @@ module.exports = {
           /node_modules/,
           /frontend\/plugins\/.*\.js$/
         ]
+      }, {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
       },
-          {
+      {
         test: /\.styl$/,
         loader: ExtractTextPlugin.extract({fallback:'style-loader', use:'css-loader!stylus-loader?resolve url'})
       },      {
@@ -42,12 +45,12 @@ module.exports = {
   },
 
   plugins: [
+    new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({filename: 'index.html', template: './main.pug'}),
-    new ExtractTextPlugin({filename: 'styles.css', allChunks: true, disable: process.env.NODE_ENV=='development'}) //'[name.css]','styles.css', {allChunks: true}
+    new ExtractTextPlugin({filename: 'styles.css', allChunks: true}) //'[name.css]','styles.css', {allChunks: true} , disable: process.env.NODE_ENV=='development'
   ],
 
   devServer: {
-    contentBase: './public',
-    hot:true
+   // contentBase: './public'
   }
 };
