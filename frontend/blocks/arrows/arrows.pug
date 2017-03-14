@@ -1,4 +1,5 @@
-div.arrows
-  h1.arrows__text
-  div.arrows__first <
-  div.arrows__second >
+mixin arrow(direction, background)
+  button.arrows__arrow(
+    class = 'arrows__arrow_' + direction,
+    class = 'arrows__arrow_' + background
+    )

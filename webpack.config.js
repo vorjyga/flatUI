@@ -35,22 +35,30 @@ module.exports = {
       {
         test: /\.styl$/,
         loader: ExtractTextPlugin.extract({fallback:'style-loader', use:'css-loader!stylus-loader?resolve url'})
-      },      {
+      }, {
         test: /\.pug$/,
         loader: 'pug-loader'
-      }, {
+      },/* {
+        test: /\.styl$/,
+        loader:'style-loader!css-loader!stylus-loader?resolve url'
+      },*/
+      {
         test: /\.(ico|png|jpg|svg|ttf|eot|woff|woff2)$/,
-        loader: 'file?name=[path][name].[ext]?[hash]'
+        loader: 'file-loader?name=[path][name].[ext]?[hash]'
       }]
   },
 
   plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    }),
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({filename: 'index.html', template: './main.pug'}),
-    new ExtractTextPlugin({filename: 'styles.css', allChunks: true}) //'[name.css]','styles.css', {allChunks: true} , disable: process.env.NODE_ENV=='development'
+    new ExtractTextPlugin({filename: 'styles.css', allChunks: true, disable: process.env.NODE_ENV=='development'}) //'[name.css]','styles.css', {allChunks: true} ,
   ],
 
   devServer: {
-   // contentBase: './public'
+   contentBase: './public'
   }
 };

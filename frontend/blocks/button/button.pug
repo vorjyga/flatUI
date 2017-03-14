@@ -6,8 +6,7 @@
 //  button.buttons__fourth button4t
 
 mixin button(size, color, text)
-  button(
-    class = 'buttons__' + size,
-    class = "buttons__btn",
-    class = "buttons__" + color
+  button.buttons__btn(
+    class = 'buttons__btn_' + size,
+    class = "buttons__btn_" + color
   )= text

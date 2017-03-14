@@ -16,6 +16,8 @@
     "css-loader": "^0.26.4",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.10.1",
+    "font-awesome-stylus": "^4.7.0",
+    "jquery": "^3.1.1",
     "pug": "^2.0.0-beta11",
     "pug-loader": "^2.3.0",
     "style-loader": "^0.13.2",

@@ -1,4 +1,5 @@
 include blocks/button/button
+include blocks/arrows/arrows
 html
   head
     meta(charset="utf-8:")
@@ -11,7 +12,17 @@ html
       +button('big', 'green','BUTTON')
       +button('big', 'red', 'BUTTON')
       +button('small','red', 'BUTTON')
-      .tests
+    .arrows
+      h1.arrows__text ARROW BUTTONS
+      +arrow('left','transparent')
+      +arrow('right','transparent')
+      +arrow('left','grey')
+      +arrow('right','grey')
+      +arrow('left','green')
+      +arrow('right','green')
+    .charts
+      h1.charts__text PERCENTAGES / PIE CHART
+
 
 
       //include blocks/arrows/arrows

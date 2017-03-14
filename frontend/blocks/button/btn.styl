@@ -4,29 +4,30 @@
   justify-content center
   align-items: flex-end
 
-  &__btn
-    color font-color
-    margin-right 23px
-    border-radius 0.25rem
-    border 0px
-    margin-top: 75px
-
-  &__small
-    width 6.5rem
-    padding 0.5rem
-  &__big
-    width 10rem
-    padding 1rem
-
-
   &__text
     width 100%
     text-align center
-    font-size 20px
     font-weight bold
 
-  &__red
-    background-color color-red
+  &__btn + &__btn
+    margin-left 2em
 
-  &__green
-    background-color color-green
+  &__btn
+    color font-color
+
+    border-radius 0.25rem
+    border 0
+    margin-top: 75px
+
+    &_small
+      width 6.5rem
+      padding 0.5rem
+    &_big
+      width 10rem
+      padding 1rem
+
+    &_red
+      background-color color-red
+
+    &_green
+      background-color color-green

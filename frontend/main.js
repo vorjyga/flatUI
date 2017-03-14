@@ -2,9 +2,7 @@
 
 import './main.styl';
 
-function requireAll(requireContext) {
-  return requireContext.keys().map(requireContext);
+function importAll (r) {
+  r.keys().forEach(r);
 }
-
-requireAll(require.context('./blocks/', true, /^\.\/.*\.js$/));
-
+importAll(require.context('./blocks/', true, /\.js$/));
