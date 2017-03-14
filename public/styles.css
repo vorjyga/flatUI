@@ -2770,30 +2770,32 @@
   justify-content: center;
   align-items: flex-end;
 }
-.buttons__btn {
-  color: #fff;
-  margin-right: 23px;
-  border-radius: 0.25rem;
-  border: 0px;
-  margin-top: 75px;
-}
-.buttons__small {
-  width: 6.5rem;
-  padding: 0.5rem;
-}
-.buttons__big {
-  width: 10rem;
-  padding: 1rem;
-}
 .buttons__text {
   width: 100%;
   text-align: center;
   font-weight: bold;
 }
-.buttons__red {
+.buttons__btn + .buttons__btn {
+  margin-left: 2em;
+}
+.buttons__btn {
+  color: #fff;
+  border-radius: 0.25rem;
+  border: 0;
+  margin-top: 75px;
+}
+.buttons__btn_small {
+  width: 6.5rem;
+  padding: 0.5rem;
+}
+.buttons__btn_big {
+  width: 10rem;
+  padding: 1rem;
+}
+.buttons__btn_red {
   background-color: #e75735;
 }
-.buttons__green {
+.buttons__btn_green {
   background-color: #4eb7a8;
 }
 .arrows {
@@ -2815,16 +2817,27 @@
   border-radius: 50%;
   background: transparent;
   font-family: FontAwesome;
-  content: '\F104';
 }
 .arrows__arrow_left:after {
   display: block;
-  margin-left: -4px;
-  margin-top: -2px;
+  margin-right: 0.1em;
   content: '\F104';
+  vertical-align: middle;
+  text-align: center;
+  font-size: 4em;
+}
+.arrows__arrow_right:after {
+  display: block;
+  margin-right: -0.1em;
+  content: '\F105';
+  vertical-align: middle;
+  text-align: center;
+  font-size: 4em;
 }
 .arrows__arrow_green {
   background-color: #4eb7a8;
+  color: #fff;
+  border: 0.2em solid #4eb7a8;
 }
 .arrows__arrow_transparent {
   background: transparent;
@@ -2833,4 +2846,6 @@
 }
 .arrows__arrow_grey {
   background-color: #e5e5e5;
+  color: #fff;
+  border: 0.2em solid #e5e5e5;
 }
