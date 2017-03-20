@@ -14,6 +14,7 @@
     "babel-cli": "^6.23.0",
     "babel-loader": "^6.4.0",
     "css-loader": "^0.26.4",
+    "css-ripple-effect": "^1.0.5",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.10.1",
     "font-awesome-stylus": "^4.7.0",
