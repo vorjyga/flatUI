@@ -1,5 +1,7 @@
 include blocks/button/button
 include blocks/arrows/arrows
+include blocks/charts/charts
+include blocks/sliders/sliders
 html
   head
     meta(charset="utf-8:")
@@ -22,6 +24,14 @@ html
       +arrow('right','green')
     .charts
       h1.charts__text PERCENTAGES / PIE CHART
+      +chart('first','0','middle')
+      +chart('second','38','middle')
+      +chart('firth','62','middle')
+      +chart('fourth','89','middle')
+    .sliders
+      h1.sliders__text SLIDERS
+      +slider('test')
+      +slider('test2')
 
 
 

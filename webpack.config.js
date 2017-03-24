@@ -13,14 +13,23 @@ module.exports = {
     filename: 'main.js'
   },
 
-    /*resolve: {
-      modulesDirectories: ['node_modules'],
-      extensions: ['', '.js', '.styl', '.pug']
-    },*/
+    resolve: {
+      alias: {
+        "jquery-ui": "jquery-ui/jquery-ui.js"
+      }
+      /*modulesDirectories: ['node_modules'],
+      extensions: ['', '.js', '.styl', '.pug']*/
+    },
 
 
   module: {
+
     loaders: [
+      /*{
+        enforce: 'pre',
+        test: /\.styl$/,
+        loader: 'import-glob-loader'
+      },*/
       {
         test: /\.js$/,
         loader: 'babel-loader',
@@ -51,7 +60,7 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       $: 'jquery',
-      jQuery: 'jquery'
+      jQuery: 'jquery',
     }),
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({filename: 'index.html', template: './main.pug'}),
