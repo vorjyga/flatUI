@@ -1,0 +1,97 @@
+.forms-block
+  border 3px solid color-red
+  display flex
+  flex-flow row wrap
+  justify-content center
+  width 100%
+
+  &__text
+    width 100%
+    text-align center
+
+
+.form-inputs
+  border 3px solid color-red
+  box-sizing border-box
+  width 50%
+  display flex
+  flex-flow column nowrap
+  align-content space-between
+
+
+  &__name,
+  &__email
+    display flex
+    flex-flow row nowrap
+
+    &_field
+      box-sizing border-box
+      width 17em
+      background-color color-grey
+      padding 0.5em
+      font-size 1.2em
+      margin-bottom 1em
+      border-radius 0.5em
+      border none
+
+    &_notification
+      width 18%
+      height 5%
+      border 1px solid color-red
+      margin-left 1em
+      margin-top 0.1em
+      border-radius 0.3em
+
+      &-error
+        text-align center
+
+        background-color color-red
+
+      &-error:before
+        display block
+        content 'ERROR'
+        text-align center
+        margin-top 0.5em
+        font-weight bold
+        color color-white
+      &-arrow
+        position: relative
+        top: -20px
+        left: -8px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid color-red
+        width: 0;
+        height: 0;
+        z-index 2
+
+
+
+
+
+
+  &__message
+    border 3px solid color-red
+
+    &_field
+      border none
+      border-radius 0.5em
+      width 90%
+      height 10em
+      background-color color-grey
+      padding 0.5em
+      font-size: 1.5em
+      resize none
+
+    &_button
+      display flex
+      justify-content  flex-end
+      margin-right 3em
+
+
+.forms-tumblers
+  height 2em
+  width 40%
+  border 3px solid color-red
+
+
