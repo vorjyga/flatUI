@@ -1,5 +1,22 @@
+photoplace-size = 5em
+
 .profile-block
   display flex
+  flex-flow column nowrap
   border 1px solid color-red
   box-sizing border-box
   width 50%
+
+.profile
+  display flex
+  flex-flow row nowrap
+  justify-content center
+  border 1px solid color-red
+
+  &__photoplace
+    display block
+    width photoplace-size
+    height photoplace-size
+    border-radius 50%
+    border 2em solid color-grey
+    background-color color-red

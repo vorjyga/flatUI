@@ -3236,9 +3236,24 @@ div.disabled > .toggle-slide {
 }
 .profile-block {
   display: flex;
+  flex-flow: column nowrap;
   border: 1px solid #e75735;
   box-sizing: border-box;
   width: 50%;
+}
+.profile {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border: 1px solid #e75735;
+}
+.profile__photoplace {
+  display: block;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: 2em solid #e5e5e5;
+  background-color: #e75735;
 }
 .container {
   display: flex;

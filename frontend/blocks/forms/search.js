@@ -9,12 +9,12 @@ $(function () {
     //добавляем красный бэкграунд поиску
 
 
-      $input.css("background-color", "#e75735");
-      //убираем введеный текст
-      $input.val('');
-      //сообщаем, что ничего не найдено
-      $input.addClass("search__placeholder");
-      $input.attr('placeholder', 'Не найдено, давай другое поищем');
+    $input.css("background-color", "#e75735");
+    //убираем введеный текст
+    $input.val('');
+    //сообщаем, что ничего не найдено
+    $input.addClass("search__placeholder");
+    $input.attr('placeholder', 'Не найдено, давай другое поищем');
 
   });
   $('.search__input').on('click', function () {
