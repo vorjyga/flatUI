@@ -10,12 +10,12 @@
  */
 @font-face {
     font-family: 'FontAwesome';
-    src: url(FontAwesome/fontawesome-webfont.eot?25a32416abee198dd821b0b17a198a8f);
-    src: url(FontAwesome/fontawesome-webfont.eot?25a32416abee198dd821b0b17a198a8f) format('embedded-opentype'),
-         url(FontAwesome/fontawesome-webfont.woff2?e6cf7c6ec7c2d6f670ae9d762604cb0b) format('woff2'),
-         url(FontAwesome/fontawesome-webfont.woff?c8ddf1e5e5bf3682bc7bebf30f394148) format('woff'),
-         url(FontAwesome/fontawesome-webfont.ttf?1dc35d25e61d819a9c357074014867ab) format('truetype'),
-         url(FontAwesome/fontawesome-webfont.svg?24c601e721ebd8279d38e2cfa0d01bc6#fontawesomeregular) format('svg');
+    src: url(fonts/FontAwesome/fontawesome-webfont.eot?25a32416abee198dd821b0b17a198a8f);
+    src: url(fonts/FontAwesome/fontawesome-webfont.eot?25a32416abee198dd821b0b17a198a8f) format('embedded-opentype'),
+         url(fonts/FontAwesome/fontawesome-webfont.woff2?e6cf7c6ec7c2d6f670ae9d762604cb0b) format('woff2'),
+         url(fonts/FontAwesome/fontawesome-webfont.woff?c8ddf1e5e5bf3682bc7bebf30f394148) format('woff'),
+         url(fonts/FontAwesome/fontawesome-webfont.ttf?1dc35d25e61d819a9c357074014867ab) format('truetype'),
+         url(fonts/FontAwesome/fontawesome-webfont.svg?24c601e721ebd8279d38e2cfa0d01bc6#fontawesomeregular) format('svg');
     font-weight: normal;
     font-style: normal
 }
@@ -3014,7 +3014,6 @@ div.disabled > .toggle-slide {
   color: #fff;
 }
 .forms-block {
-  border: 3px solid #e75735;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -3026,7 +3025,6 @@ div.disabled > .toggle-slide {
   text-align: center;
 }
 .form-inputs {
-  border: 1px solid #e75735;
   box-sizing: border-box;
   width: 50%;
   display: flex;
@@ -3054,7 +3052,6 @@ div.disabled > .toggle-slide {
 .form-inputs__email_notification {
   width: 20%;
   height: 5%;
-  border: 1px solid #e75735;
   margin-left: 1em;
   margin-top: 0.1em;
   border-radius: 0.3em;
@@ -3085,9 +3082,6 @@ div.disabled > .toggle-slide {
   height: 0;
   z-index: 2;
 }
-.form-inputs__message {
-  border: 1px solid #e75735;
-}
 .form-inputs__message_field {
   border: none;
   border-radius: 0.5em;
@@ -3109,7 +3103,6 @@ div.disabled > .toggle-slide {
   align-items: center;
   box-sizing: border-box;
   width: 50%;
-  border: 1px solid #e75735;
 }
 .forms-tumblers__toggles {
   display: flex;
@@ -3117,7 +3110,6 @@ div.disabled > .toggle-slide {
   justify-content: space-around;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #e75735;
   align-content: space-around;
 }
 .toggle {
@@ -3125,6 +3117,9 @@ div.disabled > .toggle-slide {
   height: 2em;
   box-shadow: none;
   text-shadow: none;
+}
+.toggle-on.active {
+  background-color: #4eb7a8;
 /*TICK BOXES*/
 }
 .forms-tumblers__checkboxes {
@@ -3160,7 +3155,6 @@ div.disabled > .toggle-slide {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border: 1px solid #e75735;
   box-sizing: border-box;
   width: 50%;
 }
@@ -3237,7 +3231,6 @@ div.disabled > .toggle-slide {
 .profile-block {
   display: flex;
   flex-flow: column nowrap;
-  border: 1px solid #e75735;
   box-sizing: border-box;
   width: 50%;
 }
@@ -3245,15 +3238,134 @@ div.disabled > .toggle-slide {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  border: 1px solid #e75735;
+  margin-bottom: 2em;
+}
+.profile:before {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #e75735;
+  height: 5em;
+  width: 5em;
 }
 .profile__photoplace {
-  display: block;
   width: 5em;
   height: 5em;
   border-radius: 50%;
-  border: 2em solid #e5e5e5;
+  border: 0.3em solid #757575;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile__photoplace_photo {
+  width: 100%;
+  height: 100%;
+}
+.profile__info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+  width: 9em;
+  margin-left: 1em;
+  padding: 0.3em 0;
+  border-radius: 0.5em;
+}
+.profile__info:before {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #e75735;
+  height: 5em;
+  width: 5em;
+}
+.profile__info_name {
+  font-family: LatoRegular;
+  text-align: center;
+}
+.profile__info_name_grey {
+  color: #e75735;
+}
+.profile__info_name_white,
+.profile__info_name_green {
+  color: #fff;
+}
+.profile__info_profession {
+  color: #fff;
+  font-family: LatoBlack;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+.profile__info_profession_grey {
+  color: #757575;
+}
+.profile__info_profession_white,
+.profile__info_profession_green {
+  color: #fff;
+}
+.profile__info__links {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 2em;
+  width: 70%;
+}
+.profile__info_red {
   background-color: #e75735;
+}
+.profile__info_green {
+  background-color: #4eb7a8;
+}
+.profile__info_grey {
+  background-color: #e5e5e5;
+}
+a:hover {
+  color: #e75735;
+  cursor: pointer;
+}
+.arrow_box_grey {
+  position: relative;
+  background: #e5e5e5;
+}
+.arrow_box_grey:after,
+.arrow_box_grey:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #e5e5e5;
+  border-width: 10px;
+  margin-top: -10px;
+}
+.arrow_box_green {
+  position: relative;
+  background: #4eb7a8;
+}
+.arrow_box_green:after,
+.arrow_box_green:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #4eb7a8;
+  border-width: 10px;
+  margin-top: -10px;
 }
 .container {
   display: flex;
@@ -3261,7 +3373,7 @@ div.disabled > .toggle-slide {
   flex-flow: column nowrap;
 }
 h1 {
-  font-family: Lato-Black;
+  font-family: LatoBlack;
   font-size: 1em;
   text-align: center;
   width: 100%;
@@ -3269,9 +3381,33 @@ h1 {
 }
 /****FONTS****/
 @font-face {
-  font-family: 'Lato-Black';
+  font-family: 'LatoBlack';
   src: url(fonts/Lato-Black/Lato-Black.eot?b5019985de47e45e8f13330f03a546b9);
   src: local('\263A'), url(fonts/Lato-Black/Lato-Black.woff?a7bafd9691baa1c9aeb61bbca4af565b) format('woff'), url(fonts/Lato-Black/Lato-Black.ttf?9ff1710baadf935e7d7bc7c459fcabfe) format('truetype'), url(fonts/Lato-Black/Lato-Black.svg?bc4f847b55c0807a87b6d15a20b54281) format('svg');
   font-weight: normal;
   font-style: normal;
+}
+/* font-family: "LatoLight"; */
+@font-face {
+  font-family: "LatoLight";
+  src: url(fonts/LatoLight/LatoLight.eot?0b2967bca4315264b6d62b5d8cf2b509);
+  src: url(fonts/LatoLight/LatoLight.eot?0b2967bca4315264b6d62b5d8cf2b509?#iefix) format("embedded-opentype"), url(fonts/LatoLight/LatoLight.woff?88ed952df90974932cf540e13c9fb8d8) format("woff"), url(fonts/LatoLight/LatoLight.ttf?c9064bf904221c68cbdaf2b237b18cb2) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "LatoBold"; */
+@font-face {
+  font-family: "LatoBold";
+  src: url(fonts/LatoBold/LatoBold.eot?55286ac73d276136be1442cba0b31d0d);
+  src: url(fonts/LatoBold/LatoBold.eot?55286ac73d276136be1442cba0b31d0d?#iefix) format("embedded-opentype"), url(fonts/LatoBold/LatoBold.woff?a0ca2cecf74466e56d30ce73067707f4) format("woff"), url(fonts/LatoBold/LatoBold.ttf?8f2be703781ed1f073f2d5eaea006304) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "LatoRegular"; */
+@font-face {
+  font-family: "LatoRegular";
+  src: url(fonts/LatoRegular/LatoRegular.eot?bfcfb36fd6d883b0cb738881a0d01617);
+  src: url(fonts/LatoRegular/LatoRegular.eot?bfcfb36fd6d883b0cb738881a0d01617?#iefix) format("embedded-opentype"), url(fonts/LatoRegular/LatoRegular.woff?be5acba9675aaffbeec76acd99f96488) format("woff"), url(fonts/LatoRegular/LatoRegular.ttf?1835f7d3644d5bb0f03ed5fdb40898d4) format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }

@@ -1,5 +1,4 @@
 .forms-block
-  border 3px solid color-red
   display flex
   flex-flow row wrap
   justify-content center
@@ -10,15 +9,12 @@
     width 100%
     text-align center
 
-
 .form-inputs
-  border 1px solid color-red
   box-sizing border-box
   width 50%
   display flex
   flex-flow column nowrap
   align-content space-between
-
 
   &__name,
   &__email
@@ -39,7 +35,6 @@
     &_notification
       width 20%
       height 5%
-      border 1px solid color-red
       margin-left 1em
       margin-top 0.1em
       border-radius 0.3em
@@ -68,7 +63,6 @@
         z-index 2
 
   &__message
-    border 1px solid color-red
 
     &_field
       border none
@@ -93,9 +87,6 @@
   align-items center
   box-sizing border-box
   width 50%
-  border 1px solid color-red
-
-
 
   &__toggles
     display flex
@@ -103,7 +94,6 @@
     justify-content space-around
     width 100%
     box-sizing border-box
-    border 1px solid color-red
     align-content space-around
 
 .toggle
@@ -112,6 +102,8 @@
   box-shadow none
   text-shadow none
 
+.toggle-on.active
+  background-color color-green
 
   /*TICK BOXES*/
 .forms-tumblers__checkboxes
@@ -131,7 +123,6 @@
     display inline-flex
     justify-content center
     align-items center
-
 
     &_enabled
       background-color color-green

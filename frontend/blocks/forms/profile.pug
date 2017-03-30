@@ -2,12 +2,22 @@ mixin profile(photo, name, profession, fblink, twlink, site, color)
   .profile
     .profile__photoplace
       img.profile__photoplace_photo(
-      src= photo
+      src= require('./blocks/forms/faces/' + photo)
       )
-    .profile__info
-      .profile__info_name
-      .profile__info_profession
+    .profile__info.arrow_box(
+      class= 'profile__info_' + color
+      class='arrow_box_' + color
+    )
+      .profile__info_name(
+      class= 'profile__info_name_' + color
+      )= name
+      .profile__info_profession(
+      class= 'profile__info_profession_' + color
+      )= profession
       .profile__info__links
         .profile__info__links_fblink
+          a.fa.fa-facebook(aria-hidden='true')
         .profile__info__links_twlink
+          a.fa.fa-twitter
         .profile__info__links_site
+          a.fa.fa-globe()
