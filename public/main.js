@@ -10321,7 +10321,7 @@ module.exports = exports['default'];
 var map = {
 	"./button/button.js": 6,
 	"./charts/charts.js": 7,
-	"./forms/forms.js": 8,
+	"./forms/search.js": 8,
 	"./sliders/sliders.js": 9,
 	"./stages/stages.js": 10
 };
@@ -10472,11 +10472,36 @@ $('.charts').append(doughnut);
 
 /***/ }),
 /* 8 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-/**
- * Created by 1 on 28.03.2017.
- */
+/* WEBPACK VAR INJECTION */(function($) {$(function () {
+
+    //по каждому клику батона
+    $('.search__button').on('click', function (a) {
+        a.preventDefault();
+
+        let $input = $('.search__input');
+        //добавляем красный бэкграунд поиску
+
+
+        $input.css("background-color", "#e75735");
+        //убираем введеный текст
+        $input.val('');
+        //сообщаем, что ничего не найдено
+        $input.addClass("search__placeholder");
+        $input.attr('placeholder', 'Не найдено, давай другое поищем');
+    });
+    $('.search__input').on('click', function () {
+
+        let $input = $('.search__input');
+        //добавляем красный бэкграунд поиску
+        $input.css("background-color", "#e5e5e5");
+
+        $input.attr('placeholder', 'чо ищем');
+        $input.removeClass("search__placeholder");
+    });
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
 /* 9 */

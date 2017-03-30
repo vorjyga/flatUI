@@ -11,6 +11,9 @@
   flex-flow row nowrap
   width 100%
   margin-bottom 1em
+
+  &__form
+   width 100%
   &__input
     width 90%
     height 2.1em
@@ -19,6 +22,15 @@
     font-size 1.2em
     border-radius 0.5em 0 0 0.5em
     border none
+    outline none
+
+  &__placeholder
+    &::-webkit-input-placeholder
+      color color-white
+
+
+
+
   &__button
     position relative
     width 10%
@@ -33,25 +45,41 @@
       content '\f002'
       font-size 1.5em
 
+
+
+
+
+
 .dropdown
   display flex
   flex-flow row nowrap
+  position relative
   width 100%
 
   &__menu
     width 100%
     background-color color-grey
     border none
-    border-radius 0.5em 0 0 0.5em
+    border-radius 0.5em 1em 1em 0.5em
     padding 0.5em
     font-size 1.2em
     height 2.1em
-    &:after
-      position relative
-      width 2.1em
-      height 2.1em
-      background-color color-green
-      font-family FontAwesome
-      content '\f107'
-      color white
-      pointer-events none
+
+
+  &:before
+    position absolute
+    right 0
+    top 0
+    bottom 0
+    display flex
+    justify-content center
+    align-items center
+    width 10%
+    height 1.26em
+    background-color color-green
+    font-family FontAwesome
+    font-size 2em
+    content '\f107'
+    color white
+    pointer-events none
+    border-radius 0 0.3em 0.3em 0

@@ -2850,6 +2850,9 @@ div.disabled > .toggle-slide {
   border: 0;
   margin-top: 0.5em;
 }
+.buttons__btn:hover {
+  cursor: pointer;
+}
 .buttons__btn_small {
   width: 6.5rem;
   padding: 0.5rem;
@@ -3167,6 +3170,9 @@ div.disabled > .toggle-slide {
   width: 100%;
   margin-bottom: 1em;
 }
+.search__form {
+  width: 100%;
+}
 .search__input {
   width: 90%;
   height: 2.1em;
@@ -3175,6 +3181,10 @@ div.disabled > .toggle-slide {
   font-size: 1.2em;
   border-radius: 0.5em 0 0 0.5em;
   border: none;
+  outline: none;
+}
+.search__placeholder::-webkit-input-placeholder {
+  color: #fff;
 }
 .search__button {
   position: relative;
@@ -3194,26 +3204,35 @@ div.disabled > .toggle-slide {
 .dropdown {
   display: flex;
   flex-flow: row nowrap;
+  position: relative;
   width: 100%;
 }
 .dropdown__menu {
   width: 100%;
   background-color: #e5e5e5;
   border: none;
-  border-radius: 0.5em 0 0 0.5em;
+  border-radius: 0.5em 1em 1em 0.5em;
   padding: 0.5em;
   font-size: 1.2em;
   height: 2.1em;
 }
-.dropdown__menu:after {
-  position: relative;
-  width: 2.1em;
-  height: 2.1em;
+.dropdown:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 1.26em;
   background-color: #4eb7a8;
   font-family: FontAwesome;
+  font-size: 2em;
   content: '\F107';
   color: #fff;
   pointer-events: none;
+  border-radius: 0 0.3em 0.3em 0;
 }
 .profile-block {
   display: flex;
