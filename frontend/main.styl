@@ -2,12 +2,45 @@
 @import 'blocks/button/btn.styl'
 @import "blocks/arrows/arrows.styl"
 @import "blocks/charts/charts.styl"
-@import "../node_modules/percircle/dist/css/percircle.css"
 @import "blocks/sliders/sliders.styl"
 @import 'blocks/stages/stages.styl'
 @import 'blocks/forms/forms.styl'
+@import 'blocks/forms/search.styl'
+@import 'blocks/forms/profile.styl'
 
+
+
+
+@import "../node_modules/percircle/dist/css/percircle.css"
 @require '../node_modules/jquery-ui-bundle/jquery-ui.min.css'
-
 @require 'FontAwesome/font-awesome.min.css'
 @import '../node_modules/css-ripple-effect/dist/ripple.min.css'
+@require '../node_modules/jquery-toggles/css/toggles.css'
+@require '../node_modules/jquery-toggles/css/themes/toggles-light.css'
+
+
+
+.container
+  display flex
+  justify-content center
+  flex-flow column nowrap
+
+h1
+  font-family Lato-Black
+  font-size 1em
+  text-align center
+  width 100%
+  margin-bottom 2em
+
+
+
+/****FONTS****/
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('fonts/Lato-Black/Lato-Black.eot');
+  src: local('☺'), url('fonts/Lato-Black/Lato-Black.woff') format('woff'), url('fonts/Lato-Black/Lato-Black.ttf') format('truetype'), url('fonts/Lato-Black/Lato-Black.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

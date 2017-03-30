@@ -20,3 +20,25 @@ mixin inputs
       )
       .form-inputs__message_button
         +button('big', 'green','BUTTON', 'a')
+
+mixin toggle(id)
+  .toggle.toggle-light(id= id)
+
+mixin checkbox(isactive)
+  .forms-tumblers__checkboxes__checkbox(
+    class = isactive ? 'forms-tumblers__checkboxes__checkbox_enabled' : ''
+      )
+    .forms-tumblers__checkboxes__checkbox_icon
+
+mixin search
+  .search
+    input.search__input(type='search' placeholder='чо ищем')
+    button.search__button()
+
+mixin dropdown
+  div.dropdown
+    select.dropdown__menu()
+      option first option
+      option second option
+      option hueption
+      option fourth option
