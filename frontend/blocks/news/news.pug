@@ -1,3 +1,22 @@
-//
-   Created by 1 on 12.03.2017.
 
+
+//-
+  context.newspic
+  context.title
+  context.datetime
+  context.time
+  context.text
+
+mixin news(context)
+  article.news
+    .news__picture
+      img(
+      src= require('./blocks/news/pic/' + context.newspic)
+      )
+    .news__area
+      h2.news__area_title= context.title
+      time.news__area_datetime(
+      datetime= context.datetime
+      )= context.time
+      .events__area_text= context.text
+        

@@ -1,0 +1,27 @@
+include ../button/button
+//-
+  context.pic
+  context.datetime
+  context.date
+  context.month
+  context.title
+  context.text
+
+
+mixin event(context)
+  article.event
+    .event__picture
+      img(
+      src= require('./blocks/events/pic/' + context.pic)
+      )
+    .event__area
+      .event__area__timeblock
+        time.event__area__timeblock_datetime(
+        datetime= context.datetime
+        )= context.date
+        .event__area__timeblock_month= context.month
+
+      h2.event__area_title= context.title
+      .event__area_text= context.text
+      .event__area_button
+        +button('custom','red', 'BUTTON', 'b')
