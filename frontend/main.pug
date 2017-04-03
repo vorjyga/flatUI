@@ -7,10 +7,19 @@ include blocks/forms/forms
 include blocks/forms/profile
 include blocks/news/news
 include blocks/events/events
+include blocks/location/location
+include blocks/calendar/calendar
+include blocks/messaging/messaging
+
+
 html
   head
     meta(charset="utf-8:")
     title FLAT UI
+    script(
+      src = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU',
+      type = 'text/javascript'
+    )
 
   body
     .container
@@ -61,6 +70,7 @@ html
           h1.profile__text USER PROFILE
           +profile('face1.png', 'John Smith', 'UX DESIGNER', '','','','grey')
           +profile('face2.png', 'Sarah Brown', 'DEVELOPER', '','','','green')
+
       .news-block
         h1.news-block__text NEWS & EVENTS
         +news({
@@ -82,7 +92,17 @@ html
         })
       .location-block
         h1.location-block__text LOCATION
-        script(type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac2d6a1b498f6dbc44320e13a2d0ecaaf41d48a53124042816fa675caa68a68b0&amp;width=600&amp;height=270&amp;lang=ru_RU&amp;scroll=false")
+        +location()
+      .calendar-messaging
+        .calendar-block
+          h1 calendar
+          +calendar()
+        .messaging-block
+          h1 messaging
+          +messaging()
+
+
+
       //include blocks/arrows/arrows
       //include blocks/charts/charts
       //include blocks/sliders/sliders
