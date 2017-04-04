@@ -1,6 +1,13 @@
+//-
+    <div class='ui-datepicker-buttonpane ui-widget-content'>" + ( isRTL ? controls : "" ) +
+    <button type='button' class='ui-datepicker-current ui-state-default ui-priority-secondary ui-corner-all' data-handler='today' data-event='click'" +
+    ">" + currentText + "</button>
+
 mixin calendar
   .calendar
-    .calendar__header 24
+    input.calendar__header(disabled)
     .calendar__body
-    .calendar__footer
-      .calendar__button today
+    .calendar__footer today
+
+
+

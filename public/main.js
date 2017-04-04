@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 18);
+/******/ 	return __webpack_require__(__webpack_require__.s = 19);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -10320,11 +10320,12 @@ module.exports = exports['default'];
 
 var map = {
 	"./button/button.js": 6,
-	"./charts/charts.js": 7,
-	"./forms/search.js": 8,
-	"./location/location.js": 9,
-	"./sliders/sliders.js": 10,
-	"./stages/stages.js": 11
+	"./calendar/calendar.js": 7,
+	"./charts/charts.js": 8,
+	"./forms/search.js": 9,
+	"./location/location.js": 10,
+	"./sliders/sliders.js": 11,
+	"./stages/stages.js": 12
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10424,13 +10425,32 @@ break;case U[1]-1:T+=" ui-datepicker-group-last",I=" ui-corner-"+(Y?"left":"righ
 
 /***/ }),
 /* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(function () {
+  $(".calendar__body").datepicker({
+    altFormat: 'dd',
+    altField: '.calendar__header',
+    firstDay: '1',
+    showOtherMonths: true,
+    selectOtherMonths: false
+  });
+
+  $('.calendar__footer').on('click', function (event) {
+    return $(".calendar__body").datepicker('setDate', new Date());
+  });
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_percircle_dist_js_percircle__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_percircle_dist_js_percircle__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_percircle_dist_js_percircle___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__node_modules_percircle_dist_js_percircle__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut__);
 
 // import '../../../node_modules/create-svg-doughnut/';
@@ -10472,7 +10492,7 @@ $('.charts').append(doughnut);
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(function () {
@@ -10505,15 +10525,28 @@ $('.charts').append(doughnut);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
-/**
- * Created by 1 on 01.04.2017.
- */
+ymaps.ready(init);
+var myMap, myPlacemark;
+
+function init() {
+  myMap = new ymaps.Map("map", {
+    center: [55.76, 37.64],
+    zoom: 7
+  });
+
+  myPlacemark = new ymaps.Placemark([55.76, 37.64], {
+    hintContent: 'Москва!',
+    balloonContent: 'Столица России'
+  });
+
+  myMap.geoObjects.add(myPlacemark);
+}
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
@@ -10523,7 +10556,7 @@ $('.charts').append(doughnut);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(function () {
@@ -10533,7 +10566,7 @@ $('.charts').append(doughnut);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10544,7 +10577,7 @@ Object.defineProperty(exports, "__esModule", {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _createSvgPie = __webpack_require__(14);
+var _createSvgPie = __webpack_require__(15);
 
 var _createSvgPie2 = _interopRequireDefault(_createSvgPie);
 
@@ -10587,7 +10620,7 @@ exports["default"] = createSVGDoughnut;
 module.exports = exports["default"];
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10605,7 +10638,7 @@ var _createSVGElementJs = __webpack_require__(1);
 
 var _createSVGElementJs2 = _interopRequireDefault(_createSVGElementJs);
 
-var _polarToCartesianJs = __webpack_require__(16);
+var _polarToCartesianJs = __webpack_require__(17);
 
 var _polarToCartesianJs2 = _interopRequireDefault(_polarToCartesianJs);
 
@@ -10633,7 +10666,7 @@ exports['default'] = createArcPath;
 module.exports = exports['default'];
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10648,7 +10681,7 @@ var _createSVGElementJs = __webpack_require__(1);
 
 var _createSVGElementJs2 = _interopRequireDefault(_createSVGElementJs);
 
-var _drawArcsJs = __webpack_require__(15);
+var _drawArcsJs = __webpack_require__(16);
 
 var _drawArcsJs2 = _interopRequireDefault(_drawArcsJs);
 
@@ -10674,7 +10707,7 @@ exports['default'] = createSVGPie;
 module.exports = exports['default'];
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10686,7 +10719,7 @@ Object.defineProperty(exports, '__esModule', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var _createArcPathJs = __webpack_require__(13);
+var _createArcPathJs = __webpack_require__(14);
 
 var _createArcPathJs2 = _interopRequireDefault(_createArcPathJs);
 
@@ -10724,7 +10757,7 @@ exports['default'] = drawArcs;
 module.exports = exports['default'];
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10743,7 +10776,7 @@ exports["default"] = polarToCartesian;
 module.exports = exports["default"];
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(t){"use strict"; true?!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0)], __WEBPACK_AMD_DEFINE_FACTORY__ = (t),
@@ -10752,7 +10785,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):"object"==typeof exports&&"object"==typeof module?module.exports=t(require("jquery")):t(jQuery)}(function(t,e){"use strict";t.fn.percircle=function(e){var s={animate:!0};e||(e={}),t.extend(e,s);var o=3.6;return this.each(function(){var s=t(this),n="",d=function(t,e){s.on("mouseover",function(){t.children("span").css("color",e)}),s.on("mouseleave",function(){t.children("span").attr("style","")})};s.hasClass("percircle")||s.addClass("percircle"),"undefined"!=typeof s.attr("data-animate")&&(e.animate="true"==s.attr("data-animate")),e.animate&&s.addClass("animate"),"undefined"!=typeof s.attr("data-progressBarColor")?(e.progressBarColor=s.attr("data-progressBarColor"),n="style='border-color: "+e.progressBarColor+"'",d(t(this),e.progressBarColor)):"undefined"!=typeof e.progressBarColor&&(n="style='border-color: "+e.progressBarColor+"'",d(t(this),e.progressBarColor));var i=s.attr("data-percent")||e.percent||0,c=s.attr("data-perclock")||e.perclock||0,l=s.attr("data-perdown")||e.perdown||0;if(i){i>50&&s.addClass("gt50");var f=s.attr("data-text")||e.text||i+"%";t("<span>"+f+"</span>").appendTo(s),t('<div class="slice"><div class="bar" '+n+'></div><div class="fill" '+n+"></div></div>").appendTo(s),i>50&&t(".bar",s).css({"-webkit-transform":"rotate(180deg)","-moz-transform":"rotate(180deg)","-ms-transform":"rotate(180deg)","-o-transform":"rotate(180deg)",transform:"rotate(180deg)"});var m=o*i;setTimeout(function(){t(".bar",s).css({"-webkit-transform":"rotate("+m+"deg)","-moz-transform":"rotate("+m+"deg)","-ms-transform":"rotate("+m+"deg)","-o-transform":"rotate("+m+"deg)",transform:"rotate("+m+"deg)"})},0)}else c?(s.hasClass("perclock")||s.addClass("perclock"),setInterval(function(){var e=new Date,r=a(e.getHours())+":"+a(e.getMinutes())+":"+a(e.getSeconds());s.html("<span>"+r+"</span>"),t('<div class="slice"><div class="bar" '+n+'></div><div class="fill" '+n+"></div></div>").appendTo(s);var o=e.getSeconds();0===o&&s.removeClass("gt50"),o>30&&(s.addClass("gt50"),t(".bar",s).css({"-webkit-transform":"rotate(180deg);scale(1,3)","-moz-transform":"rotate(180deg);scale(1,3)","-ms-transform":"rotate(180deg);scale(1,3)","-o-transform":"rotate(180deg);scale(1,3)",transform:"rotate(180deg);scale(1,3)"}));var d=6*o;t(".bar",s).css({"-webkit-transform":"rotate("+d+"deg)","-moz-transform":"rotate("+d+"deg)","-ms-transform":"rotate("+d+"deg)","-o-transform":"rotate("+d+"deg)",transform:"rotate("+d+"deg)"})},1e3)):l&&r(s,e,n)})};var r=function(e,r,a){function s(){if(c-=1,c>30&&e.addClass("gt50"),c<30&&e.removeClass("gt50"),i(),c<=0)return n(),void e.html("<span>"+l+"</span>")}function o(){m=setInterval(s,1e3)}function n(){clearInterval(m)}function d(){n(),c=r.secs,i(),o()}function i(){e.html("<span>"+c+"</span>"),t('<div class="slice"><div class="bar" '+a+'></div><div class="fill" '+a+"></div></div>").appendTo(e);var r=6*c;t(".bar",e).css({"-webkit-transform":"rotate("+r+"deg)","-moz-transform":"rotate("+r+"deg)","-ms-transform":"rotate("+r+"deg)","-o-transform":"rotate("+r+"deg)",transform:"rotate("+r+"deg)"})}var c=e.attr("data-secs")||r.secs,l=e.attr("data-timeUpText")||r.timeUpText,f=e[0].hasAttribute("data-reset")||r.reset;l.length>8&&(l="the end");var m;f&&e.on("click",d),o()},a=function(t){return t<10?"0"+t:t}});
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
