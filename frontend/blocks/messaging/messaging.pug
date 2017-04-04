@@ -1,2 +1,24 @@
+include ../button/button
+
+
 mixin messaging
   .messaging
+    .messaging__header
+      .messaging__name Sarah Brown
+    .messaging__underline
+    .messaging__body
+      .messaging__icons
+        .messaging__icons__talks
+          i(class="fa fa-comment" aria-hidden="true")
+        .messaging__icons__mug
+          img.messaging__icons__face(
+          src= require('./blocks/messaging/pic/face.png')
+          )
+        .messaging__icons__photo
+          i(class="fa fa-camera" aria-hidden="true")
+      .messaging__incoming
+        .messaging__incoming__text Hey! So are we cool to meet at the art gallery? Say 8pm
+      .messaging__outgoing
+        textarea.messaging__outgoing__text Yeah that sounds great. See you then.
+      .messaging__button
+        +button('custom','green', 'REPLY', 'a')

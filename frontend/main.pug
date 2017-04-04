@@ -10,6 +10,7 @@ include blocks/events/events
 include blocks/location/location
 include blocks/calendar/calendar
 include blocks/messaging/messaging
+include blocks/video/video
 
 
 html
@@ -100,10 +101,15 @@ html
         .messaging-block
           h1 messaging
           +messaging()
+      .video-block
+        h1.video-block__text video
+        +video({
+          videoid:'37848135'
+        })
 
 
 
-      //include blocks/arrows/arrows
+      //include blocks/arrows/arrows 37848135
       //include blocks/charts/charts
       //include blocks/sliders/sliders
       //include blocks/stages/stages
