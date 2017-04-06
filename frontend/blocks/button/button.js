@@ -1,32 +1,32 @@
-$(document).ready(function () {
-  $('.buttons__btn').on('click', function () {
-    if ( $(this).hasClass('buttons__btn_a'))
+$(function () {
+  $('.button').on('click', function () {
+    if ( $(this).hasClass('button_a'))
     {
-      if (!$(this).hasClass('buttons__btn_shadow-green') && $(this).hasClass('buttons__btn_green')) {
-        $(this).addClass('buttons__btn_shadow-green')
+      if (!$(this).hasClass('button_shadow-green') && $(this).hasClass('button_green')) {
+        $(this).addClass('button_shadow-green')
       }
-      else if ($(this).hasClass('buttons__btn_green') && $(this).hasClass('buttons__btn_shadow-green')) {
-        $(this).removeClass('buttons__btn_green')
-        $(this).addClass('buttons__btn_white-green')
+      else if ($(this).hasClass('button_green') && $(this).hasClass('button_shadow-green')) {
+        $(this).removeClass('button_green')
+        $(this).addClass('button_white-green')
       }
       else {
-        $(this).removeClass('buttons__btn_white-green')
-        $(this).addClass('buttons__btn_green')
-        $(this).removeClass('buttons__btn_shadow-green')
+        $(this).removeClass('button_white-green')
+        $(this).addClass('button_green')
+        $(this).removeClass('button_shadow-green')
       }
     }
     else  {
-      if (!$(this).hasClass('buttons__btn_shadow-red') && $(this).hasClass('buttons__btn_red')) {
-        $(this).addClass('buttons__btn_shadow-red')
+      if (!$(this).hasClass('button_shadow-red') && $(this).hasClass('button_red')) {
+        $(this).addClass('button_shadow-red')
       }
-      else if ($(this).hasClass('buttons__btn_red') && $(this).hasClass('buttons__btn_shadow-red')) {
-        $(this).removeClass('buttons__btn_red')
-        $(this).addClass('buttons__btn_white-red')
+      else if ($(this).hasClass('button_red') && $(this).hasClass('button_shadow-red')) {
+        $(this).removeClass('button_red')
+        $(this).addClass('button_white-red')
       }
       else {
-        $(this).addClass('buttons__btn_red')
-        $(this).removeClass('buttons__btn_shadow-red')
-        $(this).removeClass('buttons__btn_white-red')
+        $(this).addClass('button_red')
+        $(this).removeClass('button_shadow-red')
+        $(this).removeClass('button_white-red')
       }}
   });
 });

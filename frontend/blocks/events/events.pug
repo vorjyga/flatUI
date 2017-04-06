@@ -17,11 +17,16 @@ mixin event(context)
     .event__area
       .event__area__timeblock
         time.event__area__timeblock_datetime(
-        datetime= context.datetime
-        )= context.date
+          datetime= context.datetime
+          )= context.date
         .event__area__timeblock_month= context.month
 
       h2.event__area_title= context.title
       .event__area_text= context.text
       .event__area_button
-        +button('custom','red', 'BUTTON', 'b')
+        +button({
+          size:'custom',
+          color:'green',
+          text:'add to calendar',
+          xclass:'a'
+        })

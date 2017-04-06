@@ -1,5 +1,7 @@
-mixin arrow(direction, background)
-  button.arrows__arrow(
-    class = 'arrows__arrow_' + direction,
-    class = 'arrows__arrow_' + background
+//direction, background
+
+mixin arrow(context)
+  button.arrow(
+    class = 'arrow_' + context.direction,
+    class = 'arrow_' + context.background
     )

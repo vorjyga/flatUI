@@ -1,0 +1,31 @@
+include ../button/button.pug
+
+mixin inputs
+  .inputs
+    .inputs__name
+      input.inputs__name_field(type='text' placeholder='Your Name')
+      .inputs__name_thanks#nameThanks
+        span THANKS!
+      .inputs__name_error#nameError
+        span ERROR
+
+    .inputs__email
+      input.inputs__email_field(type='email' placeholder='Your Email')
+      .inputs__name_thanks#emailThanks
+        span THANKS!
+      .inputs__name_error#emailError
+        span ERROR
+
+    .inputs__message
+      textarea.inputs__message_field(
+      placeholder='Your message'
+      maxlength=140
+      )
+      .inputs__message_button
+        .whitespace
+        +button({
+          size: 'big',
+          color: 'green',
+          text: 'submit',
+          xclass: 'a'
+        })

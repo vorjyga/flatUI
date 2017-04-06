@@ -1,0 +1,28 @@
+.forms-tumblers__checkboxes
+  display flex
+  flex-flow row wrap
+  justify-content space-around
+  align-content space-between
+
+  &__checkbox
+    margin-top 1.2em
+    width 2em
+    height 2em
+    border none
+    border-radius 50%
+    background-color color-grey
+    font-size 2.4em
+    display inline-flex
+    justify-content center
+    align-items center
+
+    &_enabled
+      background-color color-green
+      color color-white
+
+    &_icon
+      font-family FontAwesome
+
+      &:after
+        display block
+        content '\f00c'

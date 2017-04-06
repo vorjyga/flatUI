@@ -1,7 +1,7 @@
-.buttons
+.buttons-block
   display flex
   flex-flow row wrap
-  justify-content center
+  justify-content space-between
   align-items: flex-end
 
   &__text
@@ -9,54 +9,53 @@
     text-align center
     font-weight bold
 
-  &__btn + &__btn
-    margin-left 2em
-
-  &__btn
-    color font-color
-    font-weight bold
+.button
+  font-family LatoRegular
+  color font-color
+  font-weight bold
+  font-size 1em
+  border-radius 0.25rem
+  border 0
+  margin-top: 0.5em
+  outline none
+  &:hover
+    cursor pointer
+  &_custom
+    width 100%
+    height 100%
+  &_small
+    font-size .8em
+    width 6.5rem
+    padding 0.5rem
+  &_big
     font-size 1em
-    border-radius 0.25rem
-    border 0
-    margin-top: 0.5em
-    outline none
-    &:hover
-      cursor pointer
-    &_custom
-      width 100%
-      height 100%
-    &_small
-      width 6.5rem
-      padding 0.5rem
-    &_big
-      width 10rem
-      padding 1rem
+    width 10rem
+    padding 1rem
 
-    &_red
-      background-color color-red
+  &_red
+    background-color color-red
 
-    &_green
-      background-color color-green
+  &_green
+    background-color color-green
 
-    &_white-red
-      background-color color-white
-      color color-red
+  &_white-red
+    background-color color-white
+    color color-red
 
-    &_white-green
-      background-color color-white
-      color color-green
+  &_white-green
+    background-color color-white
+    color color-green
 
+  &_shadow-green
+    -webkit-box-shadow: 0px 0px 0px 1px color-darkgreen inset, 0px 0px 0px 2px color-darkgreen inset, 0px 4px 0px 0px color-darkgreen, 0px 5px 0px 0px color-darkgreen, 0px 8px 0px 0px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0px 0px 0px 1px color-darkgreen inset, 0px 0px 0px 2px color-darkgreen inset, 0px 4px 0px 0px color-darkgreen, 0px 5px 0px 0px color-darkgreen, 0px 8px 0px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0px 0px 0px 1px color-darkgreen inset, 0px 0px 0px 2px color-darkgreen inset, 0px 4px 0px 0px color-darkgreen, 0px 5px 0px 0px color-darkgreen, 0px 8px 0px 0px rgba(0,0,0,.15);
+    -ie-box-shadow: 0px 0px 0px 1px color-darkgreen inset, 0px 0px 0px 2px color-darkgreen inset, 0px 4px 0px 0px color-darkgreen, 0px 5px 0px 0px color-darkgreen, 0px 8px 0px 0px rgba(0,0,0,.15);
+    box-shadow: 0px 0px 0px 1px color-darkgreen inset, 0px 0px 0px 2px color-darkgreen inset, 0px 4px 0px 0px color-darkgreen, 0px 5px 0px 0px color-darkgreen, 0px 8px 0px 0px rgba(0,0,0,.15);
 
-    &_shadow-green
-      -webkit-box-shadow: 0px 0px 0px 1px #4e8381 inset, 0px 0px 0px 2px #74b6b4 inset, 0px 4px 0px 0px #4a7c7b, 0px 5px 0px 0px #355655, 0px 8px 0px 0px rgba(0,0,0,.15);
-      -webkit-box-shadow: 0px 0px 0px 1px #63715a inset, 0px 0px 0px 2px #87977a inset, 0px 4px 0px 0px #63715a, 0px 5px 0px 0px #535e4b, 0px 8px 0px 0px rgba(0,0,0,.15);
-      -moz-box-shadow: 0px 0px 0px 1px #63715a inset, 0px 0px 0px 2px #87977a inset, 0px 4px 0px 0px #63715a, 0px 5px 0px 0px #535e4b, 0px 8px 0px 0px rgba(0,0,0,.15);
-      -ie-box-shadow: 0px 0px 0px 1px #63715a inset, 0px 0px 0px 2px #87977a inset, 0px 4px 0px 0px #63715a, 0px 5px 0px 0px #535e4b, 0px 8px 0px 0px rgba(0,0,0,.15);
-      box-shadow: 0px 0px 0px 1px #63715a inset, 0px 0px 0px 2px #87977a inset, 0px 4px 0px 0px #63715a, 0px 5px 0px 0px #535e4b, 0px 8px 0px 0px rgba(0,0,0,.15);
-
-    &_shadow-red
-      -webkit-box-shadow: 0px 0px 0px 1px #8d1b27 inset, 0px 0px 0px 2px #dd4356 inset, 0px 4px 0px 0px #8d1b27, 0px 5px 0px 0px #65141c, 0px 8px 0px 0px rgba(0,0,0,.15);
-      -moz-box-shadow: 0px 0px 0px 1px #8d1b27 inset, 0px 0px 0px 2px #dd4356 inset, 0px 4px 0px 0px #8d1b27, 0px 5px 0px 0px #65141c, 0px 8px 0px 0px rgba(0,0,0,.15);
-      -ie-box-shadow: 0px 0px 0px 1px #8d1b27 inset, 0px 0px 0px 2px #dd4356 inset, 0px 4px 0px 0px #8d1b27, 0px 5px 0px 0px #65141c, 0px 8px 0px 0px rgba(0,0,0,.15);
-      box-shadow: 0px 0px 0px 1px #8d1b27 inset, 0px 0px 0px 2px #dd4356 inset, 0px 4px 0px 0px #8d1b27, 0px 5px 0px 0px #65141c, 0px 8px 0px 0px rgba(0,0,0,.15);
+  &_shadow-red
+    -webkit-box-shadow: 0px 0px 0px 1px color-darkred inset, 0px 0px 0px 2px color-darkred inset, 0px 4px 0px 0px color-darkred, 0px 5px 0px 0px color-darkred, 0px 8px 0px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0px 0px 0px 1px color-darkred inset, 0px 0px 0px 2px color-darkred inset, 0px 4px 0px 0px color-darkred, 0px 5px 0px 0px color-darkred, 0px 8px 0px 0px rgba(0,0,0,.15);
+    -ie-box-shadow: 0px 0px 0px 1px color-darkred inset, 0px 0px 0px 2px color-darkred inset, 0px 4px 0px 0px color-darkred, 0px 5px 0px 0px color-darkred, 0px 8px 0px 0px rgba(0,0,0,.15);
+    box-shadow: 0px 0px 0px 1px color-darkred inset, 0px 0px 0px 2px color-darkred inset, 0px 4px 0px 0px color-darkred, 0px 5px 0px 0px color-darkred, 0px 8px 0px 0px rgba(0,0,0,.15);
 

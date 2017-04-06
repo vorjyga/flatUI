@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 19);
+/******/ 	return __webpack_require__(__webpack_require__.s = 21);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -10323,9 +10323,11 @@ var map = {
 	"./calendar/calendar.js": 7,
 	"./charts/charts.js": 8,
 	"./forms/search.js": 9,
-	"./location/location.js": 10,
-	"./sliders/sliders.js": 11,
-	"./stages/stages.js": 12
+	"./inputs/inputs.js": 10,
+	"./location/location.js": 11,
+	"./sliders/sliders.js": 12,
+	"./stages/stages.js": 13,
+	"./toggles/toggles.js": 14
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10394,29 +10396,29 @@ break;case U[1]-1:T+=" ui-datepicker-group-last",I=" ui-corner-"+(Y?"left":"righ
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
-  $('.buttons__btn').on('click', function () {
-    if ($(this).hasClass('buttons__btn_a')) {
-      if (!$(this).hasClass('buttons__btn_shadow-green') && $(this).hasClass('buttons__btn_green')) {
-        $(this).addClass('buttons__btn_shadow-green');
-      } else if ($(this).hasClass('buttons__btn_green') && $(this).hasClass('buttons__btn_shadow-green')) {
-        $(this).removeClass('buttons__btn_green');
-        $(this).addClass('buttons__btn_white-green');
+/* WEBPACK VAR INJECTION */(function($) {$(function () {
+  $('.button').on('click', function () {
+    if ($(this).hasClass('button_a')) {
+      if (!$(this).hasClass('button_shadow-green') && $(this).hasClass('button_green')) {
+        $(this).addClass('button_shadow-green');
+      } else if ($(this).hasClass('button_green') && $(this).hasClass('button_shadow-green')) {
+        $(this).removeClass('button_green');
+        $(this).addClass('button_white-green');
       } else {
-        $(this).removeClass('buttons__btn_white-green');
-        $(this).addClass('buttons__btn_green');
-        $(this).removeClass('buttons__btn_shadow-green');
+        $(this).removeClass('button_white-green');
+        $(this).addClass('button_green');
+        $(this).removeClass('button_shadow-green');
       }
     } else {
-      if (!$(this).hasClass('buttons__btn_shadow-red') && $(this).hasClass('buttons__btn_red')) {
-        $(this).addClass('buttons__btn_shadow-red');
-      } else if ($(this).hasClass('buttons__btn_red') && $(this).hasClass('buttons__btn_shadow-red')) {
-        $(this).removeClass('buttons__btn_red');
-        $(this).addClass('buttons__btn_white-red');
+      if (!$(this).hasClass('button_shadow-red') && $(this).hasClass('button_red')) {
+        $(this).addClass('button_shadow-red');
+      } else if ($(this).hasClass('button_red') && $(this).hasClass('button_shadow-red')) {
+        $(this).removeClass('button_red');
+        $(this).addClass('button_white-red');
       } else {
-        $(this).addClass('buttons__btn_red');
-        $(this).removeClass('buttons__btn_shadow-red');
-        $(this).removeClass('buttons__btn_white-red');
+        $(this).addClass('button_red');
+        $(this).removeClass('button_shadow-red');
+        $(this).removeClass('button_white-red');
       }
     }
   });
@@ -10448,36 +10450,36 @@ break;case U[1]-1:T+=" ui-datepicker-group-last",I=" ui-corner-"+(Y?"left":"righ
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_percircle_dist_js_percircle__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_percircle_dist_js_percircle__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_percircle_dist_js_percircle___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__node_modules_percircle_dist_js_percircle__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut__);
 
-// import '../../../node_modules/create-svg-doughnut/';
 
 
+const percent = $(this).data('percent');
 $(function () {
   $('#first').percircle({
     progressBarColor: '#e75735',
-    text: '0'
+    text: percent
   });
 });
 $(function () {
   $('#second').percircle({
     progressBarColor: '#e75735',
-    text: '38'
+    text: percent
   });
 });
 $(function () {
   $('#firth').percircle({
     progressBarColor: '#e75735',
-    text: '62'
+    text: percent
   });
 });
 $(function () {
   $('#fourth').percircle({
     progressBarColor: '#e75735',
-    text: '89'
+    text: percent
   });
 });
 
@@ -10488,7 +10490,7 @@ const innerRadius = 40;
 // Doughnut with default colors
 const doughnut = __WEBPACK_IMPORTED_MODULE_1_create_svg_doughnut___default()(values, outerRadius, innerRadius);
 
-$('.charts').append(doughnut);
+$('.charts-block').append(doughnut);
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
@@ -10526,6 +10528,42 @@ $('.charts').append(doughnut);
 
 /***/ }),
 /* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(function () {
+
+  let regexpName = new RegExp(/^[A-Za-zА-Яа-яЁё\s]+$/);
+  let regexpEmail = new RegExp(/^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$/);
+
+  //проверка поле name
+  $('.inputs__name_field', $(this)).on('keyup', function () {
+    let input = $(this).val();
+    console.log(input);
+    if (input.match(regexpName) && input.length > 2) {
+      $('#nameError').css('display', 'none');
+      $('#nameThanks').css('display', 'flex');
+    } else {
+      $('#nameThanks').css('display', 'none');
+      $('#nameError').css('display', 'flex');
+    }
+  });
+
+  //проверка email
+  $('.inputs__email_field', $(this)).on('keyup', function () {
+    let input = $(this).val();
+    if (input.match(regexpEmail) && input.length > 2) {
+      $('#emailError').css('display', 'none');
+      $('#emailThanks').css('display', 'flex');
+    } else {
+      $('#emailThanks').css('display', 'none');
+      $('#emailError').css('display', 'flex');
+    }
+  });
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 11 */
 /***/ (function(module, exports) {
 
 ymaps.ready(init);
@@ -10546,17 +10584,43 @@ function init() {
 }
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
-  $('#test').slider({ value: 30 });
-  $('#test2').slider();
+/* WEBPACK VAR INJECTION */(function($) {$(function () {
+  $('.slider').each(function () {
+
+    let $handle = $('.slider__handle', $(this));
+    let $body = $('.slider__body', $(this));
+    let color = $(this).data('color');
+    let scale = $('.slider__scale', $(this));
+
+    $body.slider({
+      range: scale.length ? 'min' : false
+    });
+
+    //задаем цвет для ручки сдайдера
+    $handle.css('background-color', color);
+
+    // создаем окно со значениями слайдера
+    $handle.on('mousedown', function () {
+      $(this).addClass('handle_popup');
+    });
+    $handle.on('mouseup', function () {
+      $(this).removeClass('handle_popup');
+    });
+  });
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 12 */
+/* 13 */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(function () {
@@ -10566,7 +10630,7 @@ function init() {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 13 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10577,7 +10641,7 @@ Object.defineProperty(exports, "__esModule", {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _createSvgPie = __webpack_require__(15);
+var _createSvgPie = __webpack_require__(17);
 
 var _createSvgPie2 = _interopRequireDefault(_createSvgPie);
 
@@ -10620,7 +10684,7 @@ exports["default"] = createSVGDoughnut;
 module.exports = exports["default"];
 
 /***/ }),
-/* 14 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10638,7 +10702,7 @@ var _createSVGElementJs = __webpack_require__(1);
 
 var _createSVGElementJs2 = _interopRequireDefault(_createSVGElementJs);
 
-var _polarToCartesianJs = __webpack_require__(17);
+var _polarToCartesianJs = __webpack_require__(19);
 
 var _polarToCartesianJs2 = _interopRequireDefault(_polarToCartesianJs);
 
@@ -10666,7 +10730,7 @@ exports['default'] = createArcPath;
 module.exports = exports['default'];
 
 /***/ }),
-/* 15 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10681,7 +10745,7 @@ var _createSVGElementJs = __webpack_require__(1);
 
 var _createSVGElementJs2 = _interopRequireDefault(_createSVGElementJs);
 
-var _drawArcsJs = __webpack_require__(16);
+var _drawArcsJs = __webpack_require__(18);
 
 var _drawArcsJs2 = _interopRequireDefault(_drawArcsJs);
 
@@ -10707,7 +10771,7 @@ exports['default'] = createSVGPie;
 module.exports = exports['default'];
 
 /***/ }),
-/* 16 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10719,7 +10783,7 @@ Object.defineProperty(exports, '__esModule', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var _createArcPathJs = __webpack_require__(14);
+var _createArcPathJs = __webpack_require__(16);
 
 var _createArcPathJs2 = _interopRequireDefault(_createArcPathJs);
 
@@ -10757,7 +10821,7 @@ exports['default'] = drawArcs;
 module.exports = exports['default'];
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10776,7 +10840,7 @@ exports["default"] = polarToCartesian;
 module.exports = exports["default"];
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(t){"use strict"; true?!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0)], __WEBPACK_AMD_DEFINE_FACTORY__ = (t),
@@ -10785,7 +10849,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):"object"==typeof exports&&"object"==typeof module?module.exports=t(require("jquery")):t(jQuery)}(function(t,e){"use strict";t.fn.percircle=function(e){var s={animate:!0};e||(e={}),t.extend(e,s);var o=3.6;return this.each(function(){var s=t(this),n="",d=function(t,e){s.on("mouseover",function(){t.children("span").css("color",e)}),s.on("mouseleave",function(){t.children("span").attr("style","")})};s.hasClass("percircle")||s.addClass("percircle"),"undefined"!=typeof s.attr("data-animate")&&(e.animate="true"==s.attr("data-animate")),e.animate&&s.addClass("animate"),"undefined"!=typeof s.attr("data-progressBarColor")?(e.progressBarColor=s.attr("data-progressBarColor"),n="style='border-color: "+e.progressBarColor+"'",d(t(this),e.progressBarColor)):"undefined"!=typeof e.progressBarColor&&(n="style='border-color: "+e.progressBarColor+"'",d(t(this),e.progressBarColor));var i=s.attr("data-percent")||e.percent||0,c=s.attr("data-perclock")||e.perclock||0,l=s.attr("data-perdown")||e.perdown||0;if(i){i>50&&s.addClass("gt50");var f=s.attr("data-text")||e.text||i+"%";t("<span>"+f+"</span>").appendTo(s),t('<div class="slice"><div class="bar" '+n+'></div><div class="fill" '+n+"></div></div>").appendTo(s),i>50&&t(".bar",s).css({"-webkit-transform":"rotate(180deg)","-moz-transform":"rotate(180deg)","-ms-transform":"rotate(180deg)","-o-transform":"rotate(180deg)",transform:"rotate(180deg)"});var m=o*i;setTimeout(function(){t(".bar",s).css({"-webkit-transform":"rotate("+m+"deg)","-moz-transform":"rotate("+m+"deg)","-ms-transform":"rotate("+m+"deg)","-o-transform":"rotate("+m+"deg)",transform:"rotate("+m+"deg)"})},0)}else c?(s.hasClass("perclock")||s.addClass("perclock"),setInterval(function(){var e=new Date,r=a(e.getHours())+":"+a(e.getMinutes())+":"+a(e.getSeconds());s.html("<span>"+r+"</span>"),t('<div class="slice"><div class="bar" '+n+'></div><div class="fill" '+n+"></div></div>").appendTo(s);var o=e.getSeconds();0===o&&s.removeClass("gt50"),o>30&&(s.addClass("gt50"),t(".bar",s).css({"-webkit-transform":"rotate(180deg);scale(1,3)","-moz-transform":"rotate(180deg);scale(1,3)","-ms-transform":"rotate(180deg);scale(1,3)","-o-transform":"rotate(180deg);scale(1,3)",transform:"rotate(180deg);scale(1,3)"}));var d=6*o;t(".bar",s).css({"-webkit-transform":"rotate("+d+"deg)","-moz-transform":"rotate("+d+"deg)","-ms-transform":"rotate("+d+"deg)","-o-transform":"rotate("+d+"deg)",transform:"rotate("+d+"deg)"})},1e3)):l&&r(s,e,n)})};var r=function(e,r,a){function s(){if(c-=1,c>30&&e.addClass("gt50"),c<30&&e.removeClass("gt50"),i(),c<=0)return n(),void e.html("<span>"+l+"</span>")}function o(){m=setInterval(s,1e3)}function n(){clearInterval(m)}function d(){n(),c=r.secs,i(),o()}function i(){e.html("<span>"+c+"</span>"),t('<div class="slice"><div class="bar" '+a+'></div><div class="fill" '+a+"></div></div>").appendTo(e);var r=6*c;t(".bar",e).css({"-webkit-transform":"rotate("+r+"deg)","-moz-transform":"rotate("+r+"deg)","-ms-transform":"rotate("+r+"deg)","-o-transform":"rotate("+r+"deg)",transform:"rotate("+r+"deg)"})}var c=e.attr("data-secs")||r.secs,l=e.attr("data-timeUpText")||r.timeUpText,f=e[0].hasAttribute("data-reset")||r.reset;l.length>8&&(l="the end");var m;f&&e.on("click",d),o()},a=function(t){return t<10?"0"+t:t}});
 
 /***/ }),
-/* 19 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

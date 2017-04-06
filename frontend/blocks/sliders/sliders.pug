@@ -1,4 +1,17 @@
-mixin slider(name)
-  .sliders__slider(
-    id= name
+//name
+
+mixin slider(context)
+    .slider(
+    data-color = context.color
     )
+        .slider__body(
+        id= context.slidername
+        )
+            .slider__handle.ui-slider-handle()
+        if (context.scale)
+            .slider__scale
+                .scale 0
+                .scale 25
+                .scale 50
+                .scale 75
+                .scale 100

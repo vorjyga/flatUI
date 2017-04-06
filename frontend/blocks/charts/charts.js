@@ -1,30 +1,30 @@
 import '../../../node_modules/percircle/dist/js/percircle'
-// import '../../../node_modules/create-svg-doughnut/';
 import createSVGDoughnut from 'create-svg-doughnut';
 
+const percent = $(this).data('percent')
 $(function () {
   $('#first').percircle({
     progressBarColor: '#e75735',
-    text: '0'
+    text: percent
   });
 
 });
 $(function () {
   $('#second').percircle({
     progressBarColor: '#e75735',
-    text: '38'
+    text: percent
   });
 });
 $(function () {
   $('#firth').percircle({
     progressBarColor: '#e75735',
-    text: '62'
+    text: percent
   });
 });
 $(function () {
   $('#fourth').percircle({
     progressBarColor: '#e75735',
-    text: '89'
+    text: percent
   });
 });
 
@@ -37,4 +37,4 @@ const innerRadius = 40;
 // Doughnut with default colors
 const doughnut = createSVGDoughnut(values, outerRadius, innerRadius);
 
-$('.charts').append(doughnut);
+$('.charts-block').append(doughnut);

@@ -1,48 +1,49 @@
+.location-block
+  width 100%
+
 .location
   display flex
   align-items center
   flex-flow column nowrap
+  flex-shrink 0
 
 
   &__map
-    height 30%
-    width 70%
+    height 33%
+    width 100%
+    border-radius .3rem .3rem 0 0
+    flex-shrink 0
 
   &__info
     display flex
-    background-color color-red
-    width 70%
-    height 15%
     justify-content space-between
-    align-items flex-start
-
-    &  > *
-      padding-top 1rem
-      color color-white
+    align-items center
+    background-color color-red
+    width 100%
+    height 12%
+    border-radius 0 0 .3rem .3rem
+    color white
+    flex-shrink 0
 
   &__text
     font-family LatoLight
-    font-size 4rem
+    font-size 2rem
     padding-left 1rem
-    flex 0 0 1
 
   &__addres
     font-family LatoBlack
-    width 20%
     text-transform uppercase
-    position relative
-    right 70px
-    align-self center
     text-align left
+    font-size .7rem
+    width 20%
+    padding-right 35%
 
   &__target
-    font-size 5rem
-    flex 0 0 1
+    font-size 3rem
 
   &__pipka
-    font-size 5rem
+    font-size 3rem
     padding-right 1rem
-    flex 0 0 1
 
 
 

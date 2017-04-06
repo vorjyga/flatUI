@@ -1,7 +1,9 @@
+// size, color, text, xclass
 
-mixin button(size, color, text, xclass)
-  button.buttons__btn.ripple(
-    class = 'buttons__btn_' + size,
-    class = "buttons__btn_" + color
-    class = 'buttons__btn_' + xclass,
-  )= text
+
+mixin button(context)
+  button.button.ripple(
+    class = 'button_' + context.size,
+    class = "button_" + context.color,
+    class = 'button_' + context.xclass,
+  )= context.text

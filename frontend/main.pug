@@ -3,7 +3,7 @@ include blocks/arrows/arrows
 include blocks/charts/charts
 include blocks/sliders/sliders
 include blocks/stages/stages
-include blocks/forms/forms
+include blocks/forms/search
 include blocks/forms/profile
 include blocks/news/news
 include blocks/events/events
@@ -11,6 +11,13 @@ include blocks/location/location
 include blocks/calendar/calendar
 include blocks/messaging/messaging
 include blocks/video/video
+include blocks/inputs/inputs
+include blocks/toggles/toggles
+include blocks/checkbox/checkbox
+
+
+
+
 
 
 html
@@ -23,31 +30,92 @@ html
     )
 
   body
-    .container
-      .buttons
-        h1.buttons__text STANDARD BUTTONS
-        +button('small', 'green','BUTTON','a')
-        +button('big', 'green','BUTTON', 'a')
-        +button('big', 'red', 'BUTTON', 'b')
-        +button('small','red', 'BUTTON', 'b')
-      .arrows
-        h1.arrows__text ARROW BUTTONS
-        +arrow('left','transparent')
-        +arrow('right','transparent')
-        +arrow('left','grey')
-        +arrow('right','grey')
-        +arrow('left','green')
-        +arrow('right','green')
-      .charts
-        h1.charts__text PERCENTAGES / PIE CHART
-        +chart('first','0','middle')
-        +chart('second','38','middle')
-        +chart('firth','62','middle')
-        +chart('fourth','89','middle')
-      .sliders
-        h1.sliders__text SLIDERS
-        +slider('test')
-        +slider('test2')
+    section.container
+      .buttons-block
+        h1.buttons-block__text STANDARD BUTTONS
+        +button({
+          size:'small',
+          color:'green',
+          text:'BUTTON',
+          xclass:'a'
+        })
+        +button({
+          size: 'big',
+          color: 'green',
+          text: 'BUTTON',
+          xclass: 'a'
+        })
+        +button({
+          size: 'big',
+          color: 'red',
+          text: 'BUTTON',
+          xclass: 'b'
+        })
+        +button({
+          size: 'small',
+          color: 'red',
+          text: 'BUTTON',
+          xclass: 'b'
+        })
+      .arrows-block
+        h1.arrows-block__text ARROW BUTTONS
+        +arrow({
+          direction: 'left',
+          background: 'transparent'
+        })
+        +arrow({
+          direction: 'right',
+          background: 'transparent'
+        })
+        +arrow({
+          direction: 'left',
+          background: 'grey'
+        })
+        +arrow({
+          direction: 'right',
+          background: 'grey'
+        })
+        +arrow({
+          direction: 'left',
+          background: 'green'
+        })
+        +arrow({
+          direction: 'right',
+          background: 'green'
+        })
+      .charts-block
+        h1.charts-block__text PERCENTAGES / PIE CHART
+        +chart({
+          id:'first',
+          percent:'1',
+          xclass:'middle'
+        })
+        +chart({
+          id: 'second',
+          percent: '38',
+          xclass: 'middle'
+        })
+        +chart({
+          id: 'firth',
+          percent: '62',
+          xclass: 'middle'
+        })
+        +chart({
+          id: 'fourth',
+          percent: '89',
+          xclass: 'middle'
+        })
+      .sliders-block
+        h1.sliders-block__text SLIDERS
+        +slider({
+          slidername: "slider1",
+          color: '#e75735'
+        })
+        +slider({
+          slidername: "slider2",
+          color: '#4eb7a8',
+          scale: true
+        })
       .stages-blok
         h1.stages-block__text STAGES
         +stage
@@ -56,7 +124,7 @@ html
         +inputs
         .forms-tumblers
           .forms-tumblers__toggles
-            h1 TOGGLES
+            h1.forms-tumblers__text TOGGLES
             +toggle('toggle1')
             +toggle('toggle2')
           .forms-tumblers__checkboxes
@@ -107,12 +175,6 @@ html
           videoid:'37848135'
         })
 
-
-
-      //include blocks/arrows/arrows 37848135
-      //include blocks/charts/charts
-      //include blocks/sliders/sliders
-      //include blocks/stages/stages
 
 
 

@@ -1,6 +1,8 @@
-mixin chart(id, percent, xclass)
-  .charts__chart(
-    id= id
-    data-percent= percent
-    class = xclass
+// id, percent, xclass
+
+mixin chart(context)
+  .chart(
+    id= context.id
+    data-percent= context.percent
+    class = context.xclass
     )

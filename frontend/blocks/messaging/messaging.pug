@@ -21,4 +21,9 @@ mixin messaging
       .messaging__outgoing
         textarea.messaging__outgoing__text Yeah that sounds great. See you then.
       .messaging__button
-        +button('custom','green', 'REPLY', 'a')
+        +button({
+          size:'custom',
+          color:'green',
+          text:'reply',
+          xclass:'a'
+        })
