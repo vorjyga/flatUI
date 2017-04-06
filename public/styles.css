@@ -2848,6 +2848,7 @@ div.disabled > .toggle-slide {
   border: 0;
   margin-top: 0.5em;
   outline: none;
+  text-transform: uppercase;
 }
 .button:hover {
   cursor: pointer;
@@ -3292,7 +3293,7 @@ a:hover {
   box-sizing: border-box;
   display: flex;
   width: 49%;
-  height: 35%;
+  height: 16rem;
   justify-content: center;
   margin-right: 0.4rem;
 }
@@ -3343,7 +3344,7 @@ a:hover {
   flex-flow: row;
   box-sizing: border-box;
   width: 49%;
-  height: 35%;
+  height: 16rem;
   justify-content: center;
   margin-left: 0.4rem;
 }
@@ -3414,7 +3415,7 @@ a:hover {
   flex-shrink: 0;
 }
 .location__map {
-  height: 33%;
+  height: 15rem;
   width: 100%;
   border-radius: 0.3rem 0.3rem 0 0;
   flex-shrink: 0;
@@ -3425,7 +3426,7 @@ a:hover {
   align-items: center;
   background-color: #e75735;
   width: 100%;
-  height: 12%;
+  height: 5rem;
   border-radius: 0 0 0.3rem 0.3rem;
   color: #fff;
   flex-shrink: 0;
@@ -3705,7 +3706,7 @@ a:hover {
   background-color: #e5e5e5;
   border: none;
   outline: none;
-  height: 15%;
+  height: 6rem;
 }
 .messaging__button {
   display: flex;
@@ -3758,7 +3759,7 @@ a:hover {
   align-items: center;
   color: #fff;
   width: 5rem;
-  height: 5%;
+  height: 2.4rem;
   margin-left: 1em;
   margin-top: 0.1em;
   border-radius: 0.3em;
@@ -3773,7 +3774,7 @@ a:hover {
   align-items: center;
   color: #fff;
   width: 5rem;
-  height: 5%;
+  height: 2.4rem;
   margin-left: 1em;
   margin-top: 0.1em;
   border-radius: 0.3em;
@@ -3828,6 +3829,10 @@ a:hover {
   text-shadow: none;
 }
 .toggle-on.active {
+  background-color: #4eb7a8;
+}
+.toggle-light .toggle-on,
+.toggle-light .toggle-select .toggle-inner .active {
   background-color: #4eb7a8;
 }
 .forms-tumblers__checkboxes {
