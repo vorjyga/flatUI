@@ -4,9 +4,8 @@
 @import "blocks/charts/charts.styl"
 @import "blocks/sliders/sliders.styl"
 @import 'blocks/stages/stages.styl'
-@import 'blocks/forms/forms.styl'
-@import 'blocks/forms/search.styl'
-@import 'blocks/forms/profile.styl'
+@import 'blocks/search/search.styl'
+@import 'blocks/profile/profile.styl'
 @import 'blocks/news/news.styl'
 @import 'blocks/events/events.styl'
 @import 'blocks/location/location.styl'
@@ -21,8 +20,6 @@
 @import "../node_modules/percircle/dist/css/percircle.css"
 @require '../node_modules/jquery-ui-bundle/jquery-ui.min.css'
 @require 'fonts/FontAwesome/font-awesome.min.css'
-@import '../node_modules/css-ripple-effect/dist/ripple.min.css'
-@require '../node_modules/jquery-toggles/css/toggles.css'
 @require '../node_modules/jquery-toggles/css/themes/toggles-light.css'
 
 .container
@@ -36,16 +33,29 @@
 
 h1
   font-family LatoBlack
-  font-size 1em
+  font-size 1.3em
   text-align center
   width 100%
-  margin 2em 0
+  margin 2.5em 0 1.8em 0
   text-transform uppercase
+  letter-spacing 0.1rem
 h2
   -webkit-margin-before 0
   -o-margin-before 0
   -moz-margin-before 0
   margin-left 0
+
+/*FORMS BLOCK*/
+.forms-block
+  width 100%
+  display flex
+  flex-flow row wrap
+  justify-content space-between
+
+  &__text
+    width 100%
+    text-align center
+    margin-bottom 2.3em
 
 
 

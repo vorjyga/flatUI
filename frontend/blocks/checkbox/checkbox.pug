@@ -1,5 +1,5 @@
-mixin checkbox(isactive)
-  .forms-tumblers__checkboxes__checkbox(
-  class = isactive ? 'forms-tumblers__checkboxes__checkbox_enabled' : ''
+mixin checkbox(context)
+  .checkbox(
+  class = context.active ? 'checkbox_enabled' : 'checkbox_disabled'
   )
-    .forms-tumblers__checkboxes__checkbox_icon
+    .checkbox_icon

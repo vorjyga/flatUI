@@ -1,12 +1,13 @@
 
 mixin search
   .search
-    input.search__input(type='search' placeholder='чо ищем')
+    input.search__input(type='search' placeholder='Search')
     button.search__button
 
 mixin dropdown
   label.dropdown
-    select.dropdown__menu
+    select.dropdown__menu()
+      option Choose An Option
       option first option
       option second option
       option hueption

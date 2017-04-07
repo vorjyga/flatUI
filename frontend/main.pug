@@ -3,8 +3,8 @@ include blocks/arrows/arrows
 include blocks/charts/charts
 include blocks/sliders/sliders
 include blocks/stages/stages
-include blocks/forms/search
-include blocks/forms/profile
+include blocks/search/search
+include blocks/profile/profile
 include blocks/news/news
 include blocks/events/events
 include blocks/location/location
@@ -14,11 +14,6 @@ include blocks/video/video
 include blocks/inputs/inputs
 include blocks/toggles/toggles
 include blocks/checkbox/checkbox
-
-
-
-
-
 
 html
   head
@@ -109,30 +104,33 @@ html
         h1.sliders-block__text SLIDERS
         +slider({
           slidername: "slider1",
-          color: '#e75735'
+          color: '#e75735',
+          balloon:true,
+          scale: false
         })
         +slider({
           slidername: "slider2",
           color: '#4eb7a8',
-          scale: true
+          scale: true,
+          balloon:false
         })
-      .stages-blok
+      .stages-block
         h1.stages-block__text STAGES
         +stage
       .forms-block
         h1.forms-block__text FORM ELEMENTS
         +inputs
         .forms-tumblers
-          .forms-tumblers__toggles
-            h1.forms-tumblers__text TOGGLES
-            +toggle('toggle1')
-            +toggle('toggle2')
-          .forms-tumblers__checkboxes
-            h1 TICK BOXES
-            +checkbox(true)
-            +checkbox(false)
+          .toggles
+            h1.toggles__text TOGGLES
+            +toggle({id:'toggle1'})
+            +toggle({id:'toggle2'})
+          .checkboxes
+            h1.checkboxes__text TICK BOXES
+            +checkbox({active:true})
+            +checkbox({active:false})
         .search-block
-          h1.search__text SEARCH / DROP DOWN
+          h1.search-block__text SEARCH / DROP DOWN
           +search
           +dropdown
         .profile-block
@@ -164,10 +162,10 @@ html
         +location()
       .calendar-messaging
         .calendar-block
-          h1 calendar
+          h1.calendar-block__text calendar
           +calendar()
         .messaging-block
-          h1 messaging
+          h1.messaging-block__text messaging
           +messaging()
       .video-block
         h1.video-block__text video

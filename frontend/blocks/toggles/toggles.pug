@@ -1,2 +1,14 @@
-mixin toggle(id)
-  .toggle.toggle-light(id= id)
+//id  "myonoffswitch"
+
+mixin toggle(context)
+  .onoffswitch
+    input(
+      type="checkbox"
+      name= context.id
+      class="onoffswitch-checkbox"
+      id= context.id
+      checked
+      )
+    label.onoffswitch-label(for= context.id)
+      span.onoffswitch-inner
+      span.onoffswitch-switch

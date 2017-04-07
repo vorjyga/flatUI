@@ -7,7 +7,9 @@ mixin slider(context)
         .slider__body(
         id= context.slidername
         )
-            .slider__handle.ui-slider-handle()
+            .slider__handle.ui-slider-handle
+                if (context.balloon)
+                    .slider_balloon
         if (context.scale)
             .slider__scale
                 .scale 0

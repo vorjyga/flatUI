@@ -1,28 +1,35 @@
-.forms-tumblers__checkboxes
+checkbox__radius = 1.8rem
+
+.checkboxes
   display flex
   flex-flow row wrap
   justify-content space-around
   align-content space-between
+  width 40%
+  &__text
+    margin-top 2.5rem
+    margin-bottom 1rem
 
-  &__checkbox
-    margin-top 1.2em
-    width 2em
-    height 2em
-    border none
-    border-radius 50%
+.checkbox
+  margin-top 1.2em
+  width checkbox__radius
+  height checkbox__radius
+  border none
+  border-radius 50%
+  font-size checkbox__radius / 2
+  display inline-flex
+  justify-content center
+  align-items center
+
+  &_enabled
+    background-color color-green
+    color color-white
+  &_disabled
     background-color color-grey
-    font-size 2.4em
-    display inline-flex
-    justify-content center
-    align-items center
 
-    &_enabled
-      background-color color-green
-      color color-white
+  &_icon
+    font-family FontAwesome
 
-    &_icon
-      font-family FontAwesome
-
-      &:after
-        display block
-        content '\f00c'
+    &:after
+      display block
+      content '\f00c'

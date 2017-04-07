@@ -1,5 +1,7 @@
+arrow_radius = 3.7rem
+
 .arrows-block
-  width auto
+  width 75%
   display flex
   justify-content space-between
   align-items center
@@ -11,35 +13,36 @@
     font-weight bold
 
 .arrow
-  width 5em
-  height 5em
+  width arrow_radius
+  height arrow_radius
   border-radius 50%
   background transparent
   font-family FontAwesome
   outline none
   cursor pointer
-
+  display flex
+  justify-content center
+  align-items center
   &_left:after
-    display block
-
-    margin-right 0.1em
+    position relative
+    top -.1rem
+    left -.2rem
     content '\f104'
-    vertical-align middle
-    text-align center
     font-size 4em
-
   &_right:after
-    display block
-    margin-right -0.1em
+    position relative
+    top -.1rem
+    right -.2rem
     content '\f105'
-    vertical-align middle
-    text-align center
     font-size 4em
 
   &_green
     background-color color-green
-    color: #ffffff
+    color color-white
     border .2em solid color-green
+  &_green-invert
+    background-color color-white
+    color color-green
 
   &_transparent
     background transparent

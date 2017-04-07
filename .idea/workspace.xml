@@ -2,19 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a018c85-0029-44d3-b48c-ffe69f9b25d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/blocks/arrows/arrows.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/faces/face1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/forms.styl" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/faces/face1.png" afterPath="$PROJECT_DIR$/frontend/blocks/profile/faces/face1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/faces/face2.png" afterPath="$PROJECT_DIR$/frontend/blocks/profile/faces/face2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/profile.pug" afterPath="$PROJECT_DIR$/frontend/blocks/profile/profile.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/profile.styl" afterPath="$PROJECT_DIR$/frontend/blocks/profile/profile.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/search.js" afterPath="$PROJECT_DIR$/frontend/blocks/search/search.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/search.pug" afterPath="$PROJECT_DIR$/frontend/blocks/search/search.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/blocks/forms/search.styl" afterPath="$PROJECT_DIR$/frontend/blocks/search/search.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl" afterPath="$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/button/btn.styl" afterPath="$PROJECT_DIR$/frontend/blocks/button/btn.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/events/events.styl" afterPath="$PROJECT_DIR$/frontend/blocks/events/events.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/button/button.js" afterPath="$PROJECT_DIR$/frontend/blocks/button/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/button/button.pug" afterPath="$PROJECT_DIR$/frontend/blocks/button/button.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/calendar/calendar.pug" afterPath="$PROJECT_DIR$/frontend/blocks/calendar/calendar.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" afterPath="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" afterPath="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug" afterPath="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl" afterPath="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug" afterPath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" afterPath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/location/location.styl" afterPath="$PROJECT_DIR$/frontend/blocks/location/location.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" afterPath="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/news/news.styl" afterPath="$PROJECT_DIR$/frontend/blocks/news/news.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.js" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" afterPath="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.js" afterPath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug" afterPath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl" afterPath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/main.js" afterPath="$PROJECT_DIR$/frontend/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/main.pug" afterPath="$PROJECT_DIR$/frontend/main.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcss.config.js" afterPath="$PROJECT_DIR$/postcss.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/main.styl" afterPath="$PROJECT_DIR$/frontend/main.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles.css" afterPath="$PROJECT_DIR$/public/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/main.js" afterPath="$PROJECT_DIR$/public/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="with_misha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,20 +64,50 @@
           <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/frontend/main.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2046">
-                  <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
                   <folding>
-                    <marker date="1491497447787" expanded="true" signature="489:4366" ph="..." />
+                    <marker date="1491589372601" expanded="true" signature="487:4493" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="inputs.pug" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sliders.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="inputs.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+                <state relative-caret-position="264">
+                  <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="messaging.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="profile.pug" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/profile/profile.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -62,11 +117,31 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="btn.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/button/btn.styl">
+          <file leaf-file-name="main.styl" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/frontend/main.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+                <state relative-caret-position="132">
+                  <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sliders.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="messaging.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -75,78 +150,18 @@
           <file leaf-file-name="inputs.styl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="messaging.styl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl">
-              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="704">
-                  <caret line="92" column="17" lean-forward="false" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+                  <caret line="52" column="19" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="52" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="toggles.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl">
+          <file leaf-file-name="sliders.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="news.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/news/news.styl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="location.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/location/location.styl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="events.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/events/events.styl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/main.styl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+                <state relative-caret-position="220">
+                  <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -163,9 +178,9 @@
         <option value="Less File" />
         <option value="Jade File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Stylus File" />
         <option value="Pug File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -185,57 +200,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/blocks/forms/profile.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/forms/profile.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/events/eventd.styl" />
-        <option value="$PROJECT_DIR$/public/main.js" />
-        <option value="$PROJECT_DIR$/frontend/blocks/location/location.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/location/location.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/video/video.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/video/video.pug" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/frontend/var.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/button/button.js" />
-        <option value="$PROJECT_DIR$/frontend/blocks/button/button.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/charts/charts.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/charts/charts.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/sliders/bak/sliders.pug" />
-        <option value="$PROJECT_DIR$/frontend/main.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/stages/stages.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/forms/toggles.js" />
-        <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/arrows/arrows.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.js" />
-        <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.js" />
-        <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.js" />
-        <option value="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/forms/forms.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl" />
-        <option value="$PROJECT_DIR$/frontend/main.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/forms/forms.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/forms/search.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/news/news.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/events/events.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug" />
-        <option value="$PROJECT_DIR$/frontend/main.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl" />
         <option value="$PROJECT_DIR$/postcss.config.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/events/events.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/news/news.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/location/location.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/arrows/arrows.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/frontend/blocks/button/button.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
+        <option value="$PROJECT_DIR$/frontend/main.js" />
+        <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.js" />
+        <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/forms/search.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/forms/search.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/forms/profile.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/button/btn.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/button/button.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.js" />
+        <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/forms/forms.styl" />
+        <option value="$PROJECT_DIR$/frontend/main.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/profile/profile.pug" />
+        <option value="$PROJECT_DIR$/frontend/main.styl" />
       </list>
     </option>
   </component>
@@ -350,7 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="messaging" />
+              <option name="myItemId" value="search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,51 +387,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="button" />
+              <option name="myItemId" value="profile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -434,16 +405,16 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../quest1" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/1/Documents/GitHub/flatUI/frontend/main.styl&#10;butt&#9;FILE&#9;file://C:/Users/1/Documents/GitHub/flatUI/frontend/blocks/button/button.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Documents\GitHub\flatUI\frontend\blocks\profile" />
+      <recent name="C:\Users\1\Documents\GitHub\flatUI\frontend\blocks\search" />
       <recent name="C:\Users\1\Documents\GitHub\flatUI\frontend\blocks\sliders" />
       <recent name="C:\Users\1\Documents\GitHub\flatUI\frontend\blocks\sliders\bak" />
       <recent name="C:\Users\1\Documents\GitHub\flatUI\frontend\blocks\forms" />
-      <recent name="C:\Users\1\Documents\GitHub\flatUI\frontend\blocks\arrows" />
-      <recent name="C:\Users\1\Documents\GitHub\flatUI\frontend\blocks\stages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\1\Documents\GitHub\flatUI" />
@@ -558,12 +529,21 @@
       <workItem from="1490763641609" duration="109558000" />
       <workItem from="1491223813265" duration="28999000" />
       <workItem from="1491307299743" duration="16784000" />
-      <workItem from="1491332885796" duration="81628000" />
+      <workItem from="1491332885796" duration="127139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420840000" />
+    <option name="totallyTimeSpent" value="466351000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
@@ -608,70 +588,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/video/video.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-slider/src/less/bootstrap-slider.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/bootstrap-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="64" column="12" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="64" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/bootstrap-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5718">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/jquery-ui/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -680,94 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/var.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/arrows/arrows.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/stages/stages.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/stages/stages.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="29" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -796,62 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/forms/forms.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/forms/search.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/forms/search.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/events/events.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -864,14 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/main.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -892,56 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="78" lean-forward="false" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/button.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/main.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2046">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding>
-            <marker date="1491497447787" expanded="true" signature="489:4366" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -950,42 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/events/events.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1006,18 +692,310 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/btn.styl">
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/events/events.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/arrows/arrows.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/arrows/arrows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/stages/stages.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding>
+            <element signature="e#15#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/var.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/search/search.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/search/search.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/btn.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/button.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="52" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="92" column="17" lean-forward="false" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/profile/profile.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/forms/forms.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <marker date="1491589372601" expanded="true" signature="487:4493" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/profile/profile.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/main.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
         </state>
       </provider>

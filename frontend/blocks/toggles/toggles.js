@@ -1,4 +1,9 @@
 $(function () {
-  $('#toggle1').toggles({on:true});
-  $('#toggle2').toggles();
+
+  $('.js-toggle').on('click', function (event) {
+    if ($(this).hasClass('toggle_on'))
+      $(this).removeClass('toggle_on');
+    else
+      $(this).addClass('toggle_on')
+  })
 });

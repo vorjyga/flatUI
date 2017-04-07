@@ -2,7 +2,7 @@ mixin profile(photo, name, profession, fblink, twlink, site, color)
   .profile
     .profile__photoplace
       img.profile__photoplace_photo(
-      src= require('./blocks/forms/faces/' + photo)
+      src= require('./blocks/profile/faces/' + photo)
       )
     .profile__info.arrow_box(
       class= 'profile__info_' + color

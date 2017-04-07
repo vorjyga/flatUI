@@ -40,11 +40,16 @@ module.exports = {
         use: 'style-loader!css-loader'
       },
       {
-        test: /\.styl$/,
-        use: ExtractTextPlugin.extract({
+        test: /\.styl$/i,
+        /*use: ExtractTextPlugin.extract({
           fallback:'style-loader',
           use:'css-loader!stylus-loader?resolve url',
-        })
+        })*/
+        use: [
+          'style-loader',
+          'css-loader',
+          'stylus-loader'
+        ]
       }, {
         test: /\.pug$/,
         use: 'pug-loader'
@@ -77,5 +82,8 @@ module.exports = {
 
   devServer: {
    contentBase: './public'
+  },
+  watchOptions: {
+    aggregateTimeout: 100
   }
 };

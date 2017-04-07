@@ -3,11 +3,14 @@
   flex-flow row wrap
   width 100%
   justify-content space-between
+  &__text
+    margin-top 1.5rem
+    margin-bottom 2.3em
 
 .slider
   box-sizing border-box
   display block
-  width 46%
+  width 44%
   outline none
 
   &__body.ui-widget-content
@@ -34,6 +37,7 @@
     border none
   & .ui-slider-range
     background-color color-green
+
   &__scale
     display flex
     justify-content space-between
@@ -44,6 +48,30 @@
     color color-grey
     position relative
     top: 10px
+
+  &_balloon
+    background-color inherit
+    border-radius .2rem
+    padding 4px .5rem
+    color color-white
+    font-size 1rem
+    font-family LatoBlack
+    font-weight bold
+    position absolute
+    top -2.3rem
+    right -.4rem
+    display flex
+    width 1rem
+    justify-content center
+    &::before
+      content ''
+      display block
+      background-color inherit
+      transform rotate(45deg)
+      width 10px
+      height 6px
+      position absolute
+      top 89%
 
 
 

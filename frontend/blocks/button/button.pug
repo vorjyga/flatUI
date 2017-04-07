@@ -2,7 +2,8 @@
 
 
 mixin button(context)
-  button.button.ripple(
+  button.button(
+    data-ripple-color='black',
     class = 'button_' + context.size,
     class = "button_" + context.color,
     class = 'button_' + context.xclass,
