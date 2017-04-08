@@ -56,7 +56,6 @@
     &-default
       font-family SourceSansProRegular
       text-align center
-      color color-darkgrey
       border none
   &-datepicker
     border none
@@ -120,18 +119,19 @@
         font-size 0.8em
 
       & tbody
-        background-color #f2f2f2
+        background-color color-grey
         & td
-          border 0.2em solid color-white
+          border 0.1rem solid color-white
           padding 0
-          width 3em
+          width 3rem
           height 3rem
           font-size 1em
           text-align center
           & a
             display block
-            height 100%
+            //height 100%
             margin-top 0.1rem
+            background-color color-grey
         & td:first-child
           border-left none
         & td:last-child
