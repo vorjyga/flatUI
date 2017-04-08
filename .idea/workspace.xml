@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a018c85-0029-44d3-b48c-ffe69f9b25d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" afterPath="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/events/events.styl" afterPath="$PROJECT_DIR$/frontend/blocks/events/events.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" afterPath="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="with_misha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,11 +90,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="calendar.styl" pinned="false" current-in-tab="true">
+          <file leaf-file-name="calendar.styl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="495">
                   <caret line="123" column="23" lean-forward="false" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/webpack.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -219,7 +225,6 @@
         <option value="$PROJECT_DIR$/frontend/blocks/arrows/arrows.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/frontend/blocks/button/button.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" />
         <option value="$PROJECT_DIR$/frontend/main.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.js" />
@@ -246,6 +251,7 @@
         <option value="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -524,12 +530,12 @@
       <workItem from="1490763641609" duration="109558000" />
       <workItem from="1491223813265" duration="28999000" />
       <workItem from="1491307299743" duration="16784000" />
-      <workItem from="1491332885796" duration="130041000" />
+      <workItem from="1491332885796" duration="130172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469253000" />
+    <option name="totallyTimeSpent" value="469384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,14 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -995,6 +993,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="123" column="23" lean-forward="false" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,4 +1,3 @@
-// const poststylus = require('poststylus');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -41,15 +40,15 @@ module.exports = {
       },
       {
         test: /\.styl$/i,
-        /*use: ExtractTextPlugin.extract({
+        use: ExtractTextPlugin.extract({
           fallback:'style-loader',
           use:'css-loader!stylus-loader?resolve url',
-        })*/
-        use: [
+        })
+        /*use: [
           'style-loader',
           'css-loader',
           'stylus-loader'
-        ]
+        ]*/
       }, {
         test: /\.pug$/,
         use: 'pug-loader'
@@ -61,13 +60,7 @@ module.exports = {
   },
 
   plugins: [
-    // new webpack.LoaderOptionsPlugin({
-    //   options: {
-    //     stylus: {
-    //       use: [poststylus(['autoprefixer'])]
-    //     }
-    //   }
-    // }),
+
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
