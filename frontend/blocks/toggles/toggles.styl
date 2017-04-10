@@ -1,69 +1,69 @@
-.forms-tumblers
-  display flex
-  flex-flow column nowrap
-  justify-content flex-start
-  align-items center
-  box-sizing border-box
-  width 50%
 
 
-.toggles
-  display flex
-  flex-flow row wrap
-  justify-content space-around
-  align-items center
-  width 55%
-  &__text
-    margin-top 0
-    margin-bottom 2rem
+.onoffswitch
+  position relative
+  width 78px
+  -webkit-user-select none
+  -moz-user-select none
+  -ms-user-select none
 
+  &-checkbox
+    display none
 
-.onoffswitch {
-  position: relative;
-  width: 78px;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select: none;
-}
-.onoffswitch-checkbox {
-  display: none;
-}
-.onoffswitch-label {
-  display: block; overflow: hidden; cursor: pointer;
-  border: none
-  border-radius: 28px;
-}
-.onoffswitch-inner {
-  display: block; width: 200%; margin-left: -100%;
-  transition: margin 0.3s ease-in 0s;
-}
-.onoffswitch-inner:before, .onoffswitch-inner:after {
-  display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-  font-size: 17px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
-  box-sizing: border-box;
-}
-.onoffswitch-inner:before {
-  content: "ON";
-  padding-left: 14px;
-  background-color: #4EB7A8; color: #FFFFFF;
-}
-.onoffswitch-inner:after {
-  content: "OFF";
-  padding-right: 14px;
-  background-color: #E5E5E5; color: #FFFFFF;
-  text-align: right;
-}
-.onoffswitch-switch {
-  display: block; width: 22px; margin: 4px;
-  background: #FFFFFF;
-  position: absolute; top: 0; bottom: 0;
-  right: 44px;
-  border: none; border-radius: 50rem;
-  transition: all 0.3s ease-in 0s;
-}
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-  margin-left: 0;
-}
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-  right: 0px;
-}
+  &-label
+    display block
+    overflow hidden
+    cursor pointer
+    border none
+    border-radius 28px
+
+  &-inner
+    display block
+    width 200%
+    margin-left -100%
+    transition margin 0.3s ease-in 0s
+
+    &:before, &:after
+      display block
+      float left
+      width 50%
+      height 30px
+      padding 0
+      line-height 30px
+      font-size 17px
+      color white
+      font-family Trebuchet, Arial, sans-serif
+      font-weight bold
+      box-sizing border-box
+
+    &:before
+      content "ON"
+      padding-left 14px
+      background-color #4EB7A8
+      color #FFFFFF
+
+    &:after
+      content "OFF"
+      padding-right 14px
+      background-color #E5E5E5
+      color #FFFFFF
+      text-align right
+
+  &-switch
+    display block
+    width 22px
+    margin 4px
+    background #FFFFFF
+    position absolute
+    top 0
+    bottom 0
+    right 44px
+    border none
+    border-radius 50rem
+    transition all 0.3s ease-in 0s
+
+  &-checkbox:checked + &-label &-inner
+    margin-left 0
+
+  &-checkbox:checked + &-label &-switch
+    right 0

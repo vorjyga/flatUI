@@ -1,5 +1,13 @@
+
 mixin checkbox(context)
-  .checkbox(
-  class = context.active ? 'checkbox_enabled' : 'checkbox_disabled'
-  )
-    .checkbox_icon
+
+    input.checkbox__checker(
+      id = 'checkbox-' + context.id
+      type='radio'
+      name='checkbox-' +  context.name
+      checked = context.checked
+      )
+    label.checkbox__label(
+    for = 'checkbox-' + context.id
+    )
+

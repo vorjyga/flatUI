@@ -44,11 +44,11 @@ module.exports = {
           fallback:'style-loader',
           use:'css-loader!stylus-loader?resolve url',
         })
-        /*use: [
-          'style-loader',
-          'css-loader',
-          'stylus-loader'
-        ]*/
+        // use: [
+        //   'style-loader',
+        //   'css-loader',
+        //   'stylus-loader'
+        // ]
       }, {
         test: /\.pug$/,
         use: 'pug-loader'

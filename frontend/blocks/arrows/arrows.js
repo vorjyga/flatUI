@@ -1,29 +1,43 @@
-// $(function () {
-//   $('.arrow').each(function () {
-//
-//
-//     let $green = $('.arrow_green', $(this));
-//     let $white = $('.arrow_transparent');
-//     let $grey = $('.arrow_grey');
-//
-//
-//     $green.click(function () {
-//         $(this).addClass('arrow_transparent');
-//       $(this).removeClass('arrow_green');
-//       });
-//
-//     /*$white
-//       $(this).on('click', function () {
-//         $white.addClass('arrow_grey');
-//         $white.removeClass('arrow_white');
-//       });
-//
-//     $grey
-//       $(this).on('click', function () {
-//         $grey.addClass('arrow_green');
-//         $grey.removeClass('arrow_grey');
-//       });*/
-//
-//
-//   })
-// });
+$(function () {
+  //$('.arrow').each(function () {
+
+
+    $(".arrow").click(function (e) {
+
+      // Remove any old one
+      $(".ripple").remove();
+
+      // Setup
+      let posX = $(this).offset().left,
+        posY = $(this).offset().top,
+        buttonWidth = $(this).width(),
+        buttonHeight =  $(this).height();
+
+      // Add the element
+      $(this).prepend("<span class='ripple'></span>");
+
+
+      // Make it round!
+      if(buttonWidth >= buttonHeight) {
+        buttonHeight = buttonWidth;
+      } else {
+        buttonWidth = buttonHeight;
+      }
+
+      // Get the center of the element
+      let x = e.pageX - posX - buttonWidth / 2;
+      let y = e.pageY - posY - buttonHeight / 2;
+
+
+      // Add the ripples CSS and start the animation
+      $(".ripple").css({
+        width: buttonWidth,
+        height: buttonHeight,
+        top: y + 'px',
+        left: x + 'px'
+      }).addClass("rippleEffect");
+    });
+
+
+  //})
+});

@@ -4,12 +4,9 @@ mixin search
     input.search__input(type='search' placeholder='Search')
     button.search__button
 
-mixin dropdown
+mixin dropdown(context)
   label.dropdown
     select.dropdown__menu()
-      option Choose An Option
-      option first option
-      option second option
-      option hueption
-      option fourth option
-
+      if context.options
+        each option in context.options
+          option.dropdown__option #{option}

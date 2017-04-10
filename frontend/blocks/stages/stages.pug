@@ -1,20 +1,29 @@
-mixin stage
-  .stages
-    .stages__stage.stages__stage_color-red
+mixin stage(context)
+  .stages(data-done = context.done)
+    .stages__circle#js-circle1
       .stages__icon 1
-    .stages__connect.stages__connect_color-red
+    - for (var number = 2; number <= context.total; number++)
+      .stages__connect(id = 'js-connect' + number)
+      .stages__circle(id = 'js-circle' + number)
+        span.stages__icon= number
 
-    .stages__stage.stages__stage_color-red
-      .stages__icon 2
-    .stages__connect.stages__connect_color-red
 
-    .stages__stage.stages__stage_color-red
-      .stages__icon 3
-    .stages__connect.stages__connect_color-grey
 
-    .stages__stage.stages__stage_color-grey
-      .stages__icon 4
-    .stages__connect.stages__connect_color-grey
-
-    .stages__stage.stages__stage_color-grey
-      .stages__icon 5
+    //.stages__stage.stages__stage_color-red
+    //  .stages__icon 1
+    //.stages__connect.stages__connect_color-red
+    //
+    //.stages__stage.stages__stage_color-red
+    //  .stages__icon 2
+    //.stages__connect.stages__connect_color-red
+    //
+    //.stages__stage.stages__stage_color-red
+    //  .stages__icon 3
+    //.stages__connect.stages__connect_color-grey
+    //
+    //.stages__stage.stages__stage_color-grey
+    //  .stages__icon 4
+    //.stages__connect.stages__connect_color-grey
+    //
+    //.stages__stage.stages__stage_color-grey
+    //  .stages__icon 5

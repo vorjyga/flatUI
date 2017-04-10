@@ -1,35 +1,27 @@
 checkbox__radius = 1.8rem
 
-.checkboxes
-  display flex
-  flex-flow row wrap
-  justify-content space-around
-  align-content space-between
-  width 40%
-  &__text
-    margin-top 2.5rem
-    margin-bottom 1rem
-
 .checkbox
-  margin-top 1.2em
-  width checkbox__radius
-  height checkbox__radius
-  border none
-  border-radius 50%
-  font-size checkbox__radius / 2
-  display inline-flex
-  justify-content center
-  align-items center
+  &__checker
+    display none
 
-  &_enabled
-    background-color color-green
-    color color-white
-  &_disabled
+  &__label
+    display inline-flex
+    justify-content center
+    align-items center
+    margin-top 1.2em
+    width checkbox__radius
+    height checkbox__radius
+    border none
+    border-radius 50%
+    font-size checkbox__radius / 2
     background-color color-grey
-
-  &_icon
-    font-family FontAwesome
+    color color-darkgrey
 
     &:after
+      font-family FontAwesome
       display block
       content '\f00c'
+
+input[type='radio']:checked + label
+  background-color color-green
+  color color-white

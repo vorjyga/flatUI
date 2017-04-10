@@ -1,14 +1,5 @@
 photoplace-size = 6rem
 
-.profile-block
-  display flex
-  flex-flow column nowrap
-  box-sizing border-box
-  justify-content center
-  align-items center
-  width 50%
-  margin-top 1rem
-
 .profile
   display flex
   flex-flow row nowrap
@@ -25,7 +16,6 @@ photoplace-size = 6rem
     border-right: 10px solid color-red
     height 5em
     width 5em
-
   &__photoplace
     width photoplace-size
     height photoplace-size
@@ -42,6 +32,7 @@ photoplace-size = 6rem
 
 
   &__info
+    position relative
     display flex
     flex-flow column nowrap
     justify-content space-between
@@ -61,6 +52,16 @@ photoplace-size = 6rem
       border-right: 10px solid color-red
       height 5em
       width 5em
+    &:after
+      content ''
+      display block
+      background-color inherit
+      transform rotate(45deg)
+      width 1rem
+      height 1rem
+      position absolute
+      left -.4rem
+      top 2.5rem
 
     &_name
       font-family LatoRegular
@@ -101,47 +102,8 @@ photoplace-size = 6rem
     &_grey
       background-color: color-grey
 
-a:hover
-  color color-red
-  cursor pointer
+    & a:hover
+      color color-red
+      cursor pointer
 
 
-
-/****Стрелочко-костылики****/
-.arrow_box_grey {
-    position: relative;
-    background: color-grey;
-  }
-.arrow_box_grey:after,
-.arrow_box_grey:before {
-  right: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: "";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-right-color: color-grey
-  border-width: 10px;
-  margin-top: -10px;
-}
-
-.arrow_box_green {
-  position: relative;
-  background: color-green;
-}
-.arrow_box_green:after,
-.arrow_box_green:before {
-  right: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: "";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-right-color: color-green
-  border-width: 10px;
-  margin-top: -10px;
-}

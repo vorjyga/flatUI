@@ -14,7 +14,7 @@ $(function () {
     $input.val('');
     //сообщаем, что ничего не найдено
     $input.addClass("search__placeholder");
-    $input.attr('placeholder', 'Не найдено, давай другое поищем');
+    $input.attr('placeholder', 'Nicht gefunden');
 
   });
   $('.search__input').on('click', function () {
@@ -23,7 +23,7 @@ $(function () {
     //добавляем красный бэкграунд поиску
     $input.css("background-color", "#e5e5e5");
 
-    $input.attr('placeholder', 'чо ищем');
+    $input.attr('placeholder', 'Search');
     $input.removeClass("search__placeholder");
 
   });

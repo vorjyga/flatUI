@@ -14,7 +14,6 @@ include blocks/video/video
 include blocks/inputs/inputs
 include blocks/toggles/toggles
 include blocks/checkbox/checkbox
-
 html
   head
     meta(charset="utf-8")
@@ -32,25 +31,21 @@ html
           size:'small',
           color:'green',
           text:'BUTTON',
-          xclass:'a'
         })
         +button({
           size: 'big',
           color: 'green',
           text: 'BUTTON',
-          xclass: 'a'
         })
         +button({
           size: 'big',
           color: 'red',
           text: 'BUTTON',
-          xclass: 'b'
-        })
+          })
         +button({
           size: 'small',
           color: 'red',
           text: 'BUTTON',
-          xclass: 'b'
         })
       .arrows-block
         h1.arrows-block__text ARROW BUTTONS
@@ -116,23 +111,41 @@ html
         })
       .stages-block
         h1.stages-block__text STAGES
-        +stage
+        +stage({total: 5,
+                done: 3
+        })
       .forms-block
         h1.forms-block__text FORM ELEMENTS
         +inputs
         .forms-tumblers
           .toggles
             h1.toggles__text TOGGLES
-            +toggle({id:'toggle1'})
-            +toggle({id:'toggle2'})
+            +toggle({
+              id:'toggle1',
+              checked:false
+            })
+            +toggle({
+              id:'toggle2',
+              checked:true
+            })
           .checkboxes
             h1.checkboxes__text TICK BOXES
-            +checkbox({active:true})
-            +checkbox({active:false})
+            +checkbox({
+              id:'uno',
+              name:'group',
+              checked:true
+            })
+            +checkbox({
+              id:'dos',
+              name: 'group',
+              checked: false
+            })
         .search-block
           h1.search-block__text SEARCH / DROP DOWN
           +search
-          +dropdown
+          +dropdown({
+            options: ["Choose an option", "First option", "Second option", "Hueption", "Fourth option"]
+          })
         .profile-block
           h1.profile__text USER PROFILE
           +profile('face1.png', 'John Smith', 'UX DESIGNER', '','','','grey')

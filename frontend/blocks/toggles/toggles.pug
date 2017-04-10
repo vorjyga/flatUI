@@ -6,8 +6,8 @@ mixin toggle(context)
       type="checkbox"
       name= context.id
       class="onoffswitch-checkbox"
-      id= context.id
-      checked
+      id= context.id,
+      checked= context.checked
       )
     label.onoffswitch-label(for= context.id)
       span.onoffswitch-inner

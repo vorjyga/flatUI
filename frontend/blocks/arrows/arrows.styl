@@ -1,17 +1,4 @@
 arrow_radius = 3.7rem
-
-.arrows-block
-  width 75%
-  display flex
-  justify-content space-between
-  align-items center
-  flex-flow row wrap
-
-  &__text
-    width 100%
-    text-align center
-    font-weight bold
-
 .arrow
   width arrow_radius
   height arrow_radius
@@ -45,7 +32,7 @@ arrow_radius = 3.7rem
     color color-green
 
   &_transparent
-    background transparent
+    background none
     border .2em solid color-green
     color color-green
 
@@ -54,3 +41,21 @@ arrow_radius = 3.7rem
     color: #ffffff
     border .2em solid color-grey
 
+/*try ripple effect*/
+  & .ripple
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(0);
+    position: absolute;
+    opacity: 1
+  & .rippleEffect
+    animation: rippleDrop .6s linear;
+
+@keyframes rippleDrop {
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

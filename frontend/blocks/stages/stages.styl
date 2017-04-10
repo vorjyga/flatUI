@@ -1,9 +1,4 @@
-circle-radius = 1.8rem
-
-.stages-block
-  width 100%
-  &__text
-    margin-bottom 1.5em
+circle-radius = 2rem
 
 .stages
   display flex
@@ -12,35 +7,33 @@ circle-radius = 1.8rem
   align-items center
   width 100%
 
-  &__stage
+  &__circle
+    display flex
+    justify-content center
+    align-items center
     width circle-radius
     height circle-radius
     border-radius 50%
     z-index 2
-
-    &_color-red
-      border 3px solid color-red
-      background-color color-red
-      color color-white
-    &_color-grey
-      border 3px solid color-grey
-      background-color color-grey
-      color color-darkgrey
+    background-color color-grey
+    color color-darkgrey
+    flex-shrink 0
+    border none
 
   &__connect
-    width 10.5em
+    width 10.5rem
     height .4em
     margin 0 -1em
-    &_color-red
-      background-color color-red
-
-    &_color-grey
-      background-color color-grey
-
+    background-color color-grey
+  &__done
+    //border 3px solid color-red
+    background-color color-red
+    color color-white
 
   &__icon
     text-align center
     font-weight bold
-    font-size 1.5em
+    font-size 1em
+    font-family LatoRegular
 
 
