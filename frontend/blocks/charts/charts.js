@@ -1,31 +1,21 @@
 import '../../../node_modules/percircle/dist/js/percircle'
 import createSVGDoughnut from 'create-svg-doughnut';
 
-const percent = $(this).data('percent')
-$(function () {
-  $('#first').percircle({
-    progressBarColor: '#e75735',
-    text: percent
-  });
 
-});
 $(function () {
-  $('#second').percircle({
-    progressBarColor: '#e75735',
-    text: percent
-  });
-});
-$(function () {
-  $('#firth').percircle({
-    progressBarColor: '#e75735',
-    text: percent
-  });
-});
-$(function () {
-  $('#fourth').percircle({
-    progressBarColor: '#e75735',
-    text: percent
-  });
+  $('.chart').each(function () {
+    let $id = $(this).data('id');
+    let $percent = $(this).data('percent1');
+    if ($percent == 0) {$percent = '0'};
+
+    $(('#' + $id)).percircle({
+      progressBarColor: '#e75735',
+      text: $percent,
+      percent: $percent
+    })
+
+
+  })
 });
 
 

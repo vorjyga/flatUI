@@ -118,22 +118,22 @@ html
       .charts-block
         h1.charts-block__text PERCENTAGES / PIE CHART
         +chart({
-          id:'first',
-          percent:'1',
+          id:'firstchart',
+          percent:'0',
           xclass:'middle'
         })
         +chart({
-          id: 'second',
+          id: 'secondchart',
           percent: '38',
           xclass: 'middle'
         })
         +chart({
-          id: 'firth',
+          id: 'firthchart',
           percent: '62',
           xclass: 'middle'
         })
         +chart({
-          id: 'fourth',
+          id: 'fourthchart',
           percent: '89',
           xclass: 'middle'
         })
@@ -142,12 +142,14 @@ html
         +slider({
           slidername: "slider1",
           color: '#e75735',
+          value:40,
           balloon:true,
           scale: false
         })
         +slider({
           slidername: "slider2",
           color: '#4eb7a8',
+          value: 75,
           scale: true,
           balloon:false
         })
@@ -190,7 +192,7 @@ html
             options: ["Choose an option", "First option", "Second option", "Hueption", "Fourth option"]
           })
         .profile-block
-          h1.profile__text USER PROFILE
+          h1.profile-block__text USER PROFILE
           +profile({
             photo: 'face1.png',
             name: 'John Smith',
