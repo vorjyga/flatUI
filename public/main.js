@@ -10378,35 +10378,7 @@ break;case U[1]-1:T+=" ui-datepicker-group-last",I=" ui-corner-"+(Y?"left":"righ
 /* 5 */
 /***/ (function(module, exports) {
 
-// $(function () {
-//   $('.arrow').each(function () {
-//
-//
-//     let $green = $('.arrow_green', $(this));
-//     let $white = $('.arrow_transparent');
-//     let $grey = $('.arrow_grey');
-//
-//
-//     $green.click(function () {
-//         $(this).addClass('arrow_transparent');
-//       $(this).removeClass('arrow_green');
-//       });
-//
-//     /*$white
-//       $(this).on('click', function () {
-//         $white.addClass('arrow_grey');
-//         $white.removeClass('arrow_white');
-//       });
-//
-//     $grey
-//       $(this).on('click', function () {
-//         $grey.addClass('arrow_green');
-//         $grey.removeClass('arrow_grey');
-//       });*/
-//
-//
-//   })
-// });
+
 
 /***/ }),
 /* 6 */
@@ -10414,6 +10386,7 @@ break;case U[1]-1:T+=" ui-datepicker-group-last",I=" ui-corner-"+(Y?"left":"righ
 
 /* WEBPACK VAR INJECTION */(function($) {
 $(function () {
+
   // эффект по клику для зеленой кнопки
   $('.button_green').on('mousedown', function () {
     $(this).addClass('button_white-green');
@@ -10604,24 +10577,32 @@ $('.charts-block').append(doughnut);
 
 /***/ }),
 /* 10 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-ymaps.ready(init);
-var myMap, myPlacemark;
+/* WEBPACK VAR INJECTION */(function($) {$(function () {
 
-function init() {
-  myMap = new ymaps.Map("map", {
-    center: [55.76, 37.64],
-    zoom: 7
+  $('.location').each(function () {
+    let $center = $('.location__map', $(this)).data('center');
+    let $placemark = $('.location__map', $(this)).data('placemark');
+    let $id = $('.location__map', $(this)).data('id');
+    let zoom = $('.location__map', $(this)).data('zoom');
+
+    ymaps.ready(init);
+    let myMap, myPlacemark;
+
+    function init() {
+      myMap = new ymaps.Map($id, {
+        center: $center,
+        zoom: zoom
+      });
+
+      myPlacemark = new ymaps.Placemark($placemark, {});
+
+      myMap.geoObjects.add(myPlacemark);
+    }
   });
-
-  myPlacemark = new ymaps.Placemark([55.76, 37.64], {
-    hintContent: 'Москва!',
-    balloonContent: 'Столица России'
-  });
-
-  myMap.geoObjects.add(myPlacemark);
-}
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
 /* 11 */
@@ -10642,7 +10623,7 @@ function init() {
         $input.val('');
         //сообщаем, что ничего не найдено
         $input.addClass("search__placeholder");
-        $input.attr('placeholder', 'Не найдено, давай другое поищем');
+        $input.attr('placeholder', 'Nicht gefunden');
     });
     $('.search__input').on('click', function () {
 
@@ -10650,7 +10631,7 @@ function init() {
         //добавляем красный бэкграунд поиску
         $input.css("background-color", "#e5e5e5");
 
-        $input.attr('placeholder', 'чо ищем');
+        $input.attr('placeholder', 'Search');
         $input.removeClass("search__placeholder");
     });
 });
@@ -10719,9 +10700,19 @@ function init() {
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-
+/* WEBPACK VAR INJECTION */(function($) {$(function () {
+  $('.stages', $(this)).each(function () {
+    let $done = $('.stages').data('done');
+    console.log($done);
+    for (let i = 1; i <= $done; i++) {
+      $('#js-circle' + i, $(this)).addClass('stages__done');
+      $('#js-connect' + i, $(this)).addClass('stages__done');
+    }
+  });
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
 /* 14 */

@@ -18,7 +18,9 @@
     border-radius 28px
 
   &-inner
-    display block
+    display flex
+    justify-content center
+    align-items center
     width 200%
     margin-left -100%
     transition margin 0.3s ease-in 0s
@@ -37,13 +39,19 @@
       box-sizing border-box
 
     &:before
+      font-family LatoRegular
+      font-size .9rem
       content "ON"
-      padding-left 14px
+      padding-left 15px
+      padding-top 2px
       background-color #4EB7A8
       color #FFFFFF
 
     &:after
+      font-family LatoRegular
+      font-size .9rem
       content "OFF"
+      padding-top 2px
       padding-right 14px
       background-color #E5E5E5
       color #FFFFFF

@@ -1,5 +1,6 @@
 
 $(function () {
+
   // эффект по клику для зеленой кнопки
     $('.button_green').on('mousedown', function () {
       $(this).addClass('button_white-green');

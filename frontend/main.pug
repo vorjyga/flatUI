@@ -47,6 +47,48 @@ html
           color: 'red',
           text: 'BUTTON',
         })
+      .buttons-block
+        +button({
+          size: 'small',
+          color: 'green',
+          text: 'BUTTON',
+        })
+        +button({
+          size: 'big',
+          color: 'green',
+          text: 'BUTTON',
+        })
+        +button({
+          size: 'big',
+          color: 'red',
+          text: 'BUTTON',
+        })
+        +button({
+          size: 'small',
+          color: 'red',
+          text: 'BUTTON',
+        })
+      .buttons-block
+        +button({
+          size: 'small',
+          color: 'green',
+          text: 'BUTTON',
+        })
+        +button({
+          size: 'big',
+          color: 'green',
+          text: 'BUTTON',
+        })
+        +button({
+          size: 'big',
+          color: 'red',
+          text: 'BUTTON',
+        })
+        +button({
+          size: 'small',
+          color: 'red',
+          text: 'BUTTON',
+        })
       .arrows-block
         h1.arrows-block__text ARROW BUTTONS
         +arrow({
@@ -140,6 +182,7 @@ html
               name: 'group',
               checked: false
             })
+
         .search-block
           h1.search-block__text SEARCH / DROP DOWN
           +search
@@ -148,8 +191,24 @@ html
           })
         .profile-block
           h1.profile__text USER PROFILE
-          +profile('face1.png', 'John Smith', 'UX DESIGNER', '','','','grey')
-          +profile('face2.png', 'Sarah Brown', 'DEVELOPER', '','','','green')
+          +profile({
+            photo: 'face1.png',
+            name: 'John Smith',
+            profession: 'UX DESIGNER',
+            fblink: '',
+            twlink: '',
+            site: '',
+            color: 'grey'
+          })
+          +profile({
+            photo: 'face2.png',
+            name: 'Sarah Brown',
+            profession: 'DEVELOPER',
+            fblink: '',
+            twlink: '',
+            site: '',
+            color: 'green'
+          })
 
       .news-block
         h1.news-block__text NEWS & EVENTS
@@ -172,14 +231,26 @@ html
         })
       .location-block
         h1.location-block__text LOCATION
-        +location()
+        +location({
+          title: 'Meet us!',
+          address: '1259 California st San Francisco, ca',
+          id: 'mymap',
+          center: [55.76, 37.64],
+          placemark: [55.76, 37.64],
+          zoom: 5
+        })
       .calendar-messaging
         .calendar-block
           h1.calendar-block__text calendar
           +calendar()
         .messaging-block
           h1.messaging-block__text messaging
-          +messaging()
+          +messaging({
+            name:'Sarah Brown',
+            face: 'face.png',
+            incoming: 'Hey! So are we cool to meet at the art gallery? Say 8pm',
+            outgoing: 'Yeah that sounds great. See you then.'
+          })
       .video-block
         h1.video-block__text video
         +video({

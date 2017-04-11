@@ -1,10 +1,16 @@
 
-mixin location
+mixin location(context)
   .location
-    .location__map#map
+    .location__map(
+      id = context.id
+      data-id = context.id
+      data-center = context.center
+      data-placemark = context.placemark
+      data-zoom = context.zoom
+    )
     .location__info
-      .location__text Meet us!
-      .location__addres 1259 California st San Francisco, ca
+      .location__text= context.title ? context.title : 'Meet us!'
+      .location__addres= context.address ? context.address : 'No address'
       .location__target
         i.fa.fa-crosshairs(aria-hidden='true')
       .location__pipka

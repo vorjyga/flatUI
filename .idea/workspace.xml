@@ -2,41 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a018c85-0029-44d3-b48c-ffe69f9b25d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/vars.styl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/var.styl" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.html" afterPath="$PROJECT_DIR$/frontend/global.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/arrows/arrows.js" afterPath="$PROJECT_DIR$/frontend/blocks/arrows/arrows.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl" afterPath="$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/button/btn.styl" afterPath="$PROJECT_DIR$/frontend/blocks/button/btn.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/button/button.pug" afterPath="$PROJECT_DIR$/frontend/blocks/button/button.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/button/button.js" afterPath="$PROJECT_DIR$/frontend/blocks/button/button.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" afterPath="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/charts/charts.pug" afterPath="$PROJECT_DIR$/frontend/blocks/charts/charts.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" afterPath="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug" afterPath="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl" afterPath="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/events/events.styl" afterPath="$PROJECT_DIR$/frontend/blocks/events/events.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/events/events.pug" afterPath="$PROJECT_DIR$/frontend/blocks/events/events.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug" afterPath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" afterPath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/location/location.js" afterPath="$PROJECT_DIR$/frontend/blocks/location/location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/location/location.pug" afterPath="$PROJECT_DIR$/frontend/blocks/location/location.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/location/location.styl" afterPath="$PROJECT_DIR$/frontend/blocks/location/location.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" afterPath="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/news/news.styl" afterPath="$PROJECT_DIR$/frontend/blocks/news/news.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug" afterPath="$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/profile/profile.pug" afterPath="$PROJECT_DIR$/frontend/blocks/profile/profile.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/profile/profile.styl" afterPath="$PROJECT_DIR$/frontend/blocks/profile/profile.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/search/search.js" afterPath="$PROJECT_DIR$/frontend/blocks/search/search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/search/search.pug" afterPath="$PROJECT_DIR$/frontend/blocks/search/search.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/search/search.styl" afterPath="$PROJECT_DIR$/frontend/blocks/search/search.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/stages/stages.js" afterPath="$PROJECT_DIR$/frontend/blocks/stages/stages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/stages/stages.pug" afterPath="$PROJECT_DIR$/frontend/blocks/stages/stages.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" afterPath="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug" afterPath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl" afterPath="$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/video/video.styl" afterPath="$PROJECT_DIR$/frontend/blocks/video/video.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/global.styl" afterPath="$PROJECT_DIR$/frontend/global.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/main.pug" afterPath="$PROJECT_DIR$/frontend/main.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/main.styl" afterPath="$PROJECT_DIR$/frontend/main.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="with_misha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,46 +37,49 @@
     <favorites_list name="with_misha" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.44099078">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="main.pug" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/frontend/main.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-136">
-                  <caret line="150" column="67" lean-forward="true" selection-start-line="150" selection-start-column="67" selection-end-line="150" selection-end-column="67" />
+                <state relative-caret-position="-486">
+                  <caret line="90" column="10" lean-forward="false" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
                   <folding>
-                    <marker date="1491840245901" expanded="true" signature="486:4849" ph="..." />
+                    <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <marker date="1491904128527" expanded="true" signature="486:6463" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="search.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/search/search.pug">
+          <file leaf-file-name="inputs.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+                <state relative-caret-position="648">
+                  <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/search/search.js">
+          <file leaf-file-name="events.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/events/events.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="783">
+                  <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="messaging.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="675">
-                  <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="checkbox.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+                  <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -104,41 +89,31 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="checkbox.styl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl">
+          <file leaf-file-name="global.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/global.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+                <state relative-caret-position="394">
+                  <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="stages.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/stages/stages.styl">
+          <file leaf-file-name="button.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/button/button.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+                <state relative-caret-position="54">
+                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="charts.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.styl">
+          <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/webpack.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="charts.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="755">
-                  <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+                <state relative-caret-position="379">
+                  <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -191,13 +166,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/blocks/forms/forms.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/news/news.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/events/events.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug" />
         <option value="$PROJECT_DIR$/postcss.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/frontend/blocks/button/button.js" />
         <option value="$PROJECT_DIR$/frontend/main.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/forms/search.pug" />
@@ -205,33 +175,22 @@
         <option value="$PROJECT_DIR$/frontend/blocks/forms/profile.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.js" />
-        <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/forms/forms.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/profile/profile.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.html" />
         <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/frontend/var.styl" />
         <option value="$PROJECT_DIR$/frontend/vars.styl" />
         <option value="$PROJECT_DIR$/frontend/main.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/search/search.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/profile/profile.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/news/news.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/events/events.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/location/location.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/video/video.styl" />
-        <option value="$PROJECT_DIR$/frontend/global.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/stages/stages.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/stages/stages.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/button/button.pug" />
-        <option value="$PROJECT_DIR$/frontend/blocks/button/btn.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/arrows/arrows.js" />
         <option value="$PROJECT_DIR$/frontend/blocks/arrows/arrows.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/charts/charts.pug" />
@@ -240,8 +199,24 @@
         <option value="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/search/search.js" />
-        <option value="$PROJECT_DIR$/frontend/main.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/search/search.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/location/location.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/location/location.js" />
+        <option value="$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/location/location.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/events/events.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/profile/profile.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/profile/profile.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl" />
+        <option value="$PROJECT_DIR$/frontend/main.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/button/btn.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" />
+        <option value="$PROJECT_DIR$/frontend/global.styl" />
+        <option value="$PROJECT_DIR$/frontend/blocks/arrows/arrows.js" />
+        <option value="$PROJECT_DIR$/frontend/blocks/button/button.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -354,10 +329,6 @@
               <option name="myItemId" value="blocks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -378,72 +349,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="toggles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sliders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -487,51 +392,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="messaging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="location" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,90 +437,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -848,12 +625,12 @@
       <workItem from="1491307299743" duration="16784000" />
       <workItem from="1491332885796" duration="142728000" />
       <workItem from="1491793593184" duration="4929000" />
-      <workItem from="1491809596212" duration="22466000" />
+      <workItem from="1491809596212" duration="35156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="509335000" />
+    <option name="totallyTimeSpent" value="522025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -903,33 +680,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/postcss.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -944,32 +699,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/forms/forms.styl" />
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -995,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/var.styl" />
     <entry file="file://$PROJECT_DIR$/frontend/main.styl">
       <provider selected="true" editor-type-id="text-editor">
@@ -1018,20 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/search/search.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1039,33 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/profile/profile.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/video/video.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/location/location.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,22 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/profile/profile.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1042">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18306">
@@ -1121,14 +795,6 @@
             <marker date="1491643909314" expanded="true" signature="358633:358639" ph="..." />
             <marker date="1491643909314" expanded="true" signature="411763:411807" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/global.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3310">
-          <caret line="184" column="24" lean-forward="false" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,22 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/btn.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/button/button.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1176,14 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/arrows/arrows.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1220,34 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1268,13 +886,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/location/location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/location/location.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="148" column="34" lean-forward="false" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/location/location.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/events/events.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/profile/profile.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/profile/profile.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="934">
+          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/checkbox/checkbox.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/toggles/toggles.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/main.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="150" column="67" lean-forward="true" selection-start-line="150" selection-start-column="67" selection-end-line="150" selection-end-column="67" />
+        <state relative-caret-position="-486">
+          <caret line="90" column="10" lean-forward="false" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
           <folding>
-            <marker date="1491840245901" expanded="true" signature="486:4849" ph="..." />
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1491904128527" expanded="true" signature="486:6463" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/btn.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/arrows/arrows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/global.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/button/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

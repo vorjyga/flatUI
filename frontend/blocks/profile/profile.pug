@@ -1,23 +1,30 @@
-mixin profile(photo, name, profession, fblink, twlink, site, color)
+// photo, name, profession, fblink, twlink, site, color
+mixin profile(context)
   .profile
     .profile__photoplace
       img.profile__photoplace_photo(
-      src= require('./blocks/profile/faces/' + photo)
+      src= require('./blocks/profile/faces/' + context.photo)
       )
     .profile__info.arrow_box(
-      class= 'profile__info_' + color
-      class='arrow_box_' + color
+      class= 'profile__info_' + context.color
+      class='arrow_box_' + context.color
     )
       .profile__info_name(
-      class= 'profile__info_name_' + color
-      )= name
+      class= 'profile__info_name_' + context.color
+      )= context.name
       .profile__info_profession(
-      class= 'profile__info_profession_' + color
-      )= profession
+      class= 'profile__info_profession_' + context.color
+      )= context.profession
       .profile__info__links
         .profile__info__links_fblink
-          a.fa.fa-facebook(aria-hidden='true')
+          a.fa.fa-facebook(
+          aria-hidden='true'
+          href= context.fblink)
         .profile__info__links_twlink
-          a.fa.fa-twitter
+          a.fa.fa-twitter(
+          aria-hidden='true'
+          href= context.twlink)
         .profile__info__links_site
-          a.fa.fa-globe()
+          a.fa.fa-globe(
+          aria-hidden='true'
+          href= context.site)

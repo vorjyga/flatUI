@@ -1,10 +1,10 @@
 include ../button/button
 
 
-mixin messaging
+mixin messaging(context)
   .messaging
     .messaging__header
-      .messaging__name Sarah Brown
+      .messaging__name= context.name
     .messaging__underline
     .messaging__body
       .messaging__icons
@@ -12,14 +12,14 @@ mixin messaging
           i(class="fa fa-comment" aria-hidden="true")
         .messaging__icons__mug
           img.messaging__icons__face(
-          src= require('./blocks/messaging/pic/face.png')
+          src= require('./blocks/messaging/pic/' + context.face)
           )
         .messaging__icons__photo
           i(class="fa fa-camera" aria-hidden="true")
       .messaging__incoming
-        .messaging__incoming__text Hey! So are we cool to meet at the art gallery? Say 8pm
+        .messaging__incoming__text= context.incoming
       .messaging__outgoing
-        textarea.messaging__outgoing__text Yeah that sounds great. See you then.
+        textarea.messaging__outgoing__text= context.outgoing
       .messaging__button
         +button({
           size:'custom',

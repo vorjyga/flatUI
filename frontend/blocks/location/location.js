@@ -1,17 +1,30 @@
-ymaps.ready(init);
-var myMap,
-  myPlacemark;
+$(function () {
 
-function init(){
-  myMap = new ymaps.Map("map", {
-    center: [55.76, 37.64],
-    zoom: 7
+  $('.location').each(function () {
+    let $center = $('.location__map', $(this)).data('center');
+    let $placemark = $('.location__map', $(this)).data('placemark');
+    let $id = $('.location__map', $(this)).data('id');
+    let zoom = $('.location__map', $(this)).data('zoom');
+
+    ymaps.ready(init);
+    let myMap,
+      myPlacemark;
+
+    function init(){
+      myMap = new ymaps.Map($id, {
+        center: $center,
+        zoom: zoom
+      });
+
+      myPlacemark = new ymaps.Placemark($placemark, {
+      });
+
+      myMap.geoObjects.add(myPlacemark);
+    }
+
   });
 
-  myPlacemark = new ymaps.Placemark([55.76, 37.64], {
-    hintContent: 'Москва!',
-    balloonContent: 'Столица России'
-  });
+});
 
-  myMap.geoObjects.add(myPlacemark);
-}
+
+
