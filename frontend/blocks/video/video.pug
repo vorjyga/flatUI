@@ -3,10 +3,10 @@
 mixin video(context)
   iframe(
   src="https://player.vimeo.com/video/" + context.videoid + "?color=e75735"
-  width="710"
-  height="400"
-  frameborder="0"
-  webkitallowfullscreen
-  mozallowfullscreen
-  allowfullscreen
+  width= context.width ? context.width : "710"
+  height= context.height ? context.heigh : "400"
+  frameborder= context.frameborder ? context.frameborder : "0"
+  webkitallowfullscreen= allowfullscreen
+  mozallowfullscreen= allowfullscreen
+  allowfullscreen= allowfullscreen
   )

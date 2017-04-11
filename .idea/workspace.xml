@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a018c85-0029-44d3-b48c-ffe69f9b25d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/button/btn.styl" afterPath="$PROJECT_DIR$/frontend/blocks/button/btn.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/charts/charts.js" afterPath="$PROJECT_DIR$/frontend/blocks/charts/charts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/charts/charts.pug" afterPath="$PROJECT_DIR$/frontend/blocks/charts/charts.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" afterPath="$PROJECT_DIR$/frontend/blocks/charts/charts.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/events/events.styl" afterPath="$PROJECT_DIR$/frontend/blocks/events/events.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" afterPath="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" afterPath="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/news/news.styl" afterPath="$PROJECT_DIR$/frontend/blocks/news/news.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/search/search.styl" afterPath="$PROJECT_DIR$/frontend/blocks/search/search.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.js" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" afterPath="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" afterPath="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/blocks/video/video.pug" afterPath="$PROJECT_DIR$/frontend/blocks/video/video.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/global.styl" afterPath="$PROJECT_DIR$/frontend/global.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/main.pug" afterPath="$PROJECT_DIR$/frontend/main.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="with_misha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,13 +28,13 @@
           <file leaf-file-name="main.pug" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/frontend/main.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="351">
-                  <caret line="233" column="3" lean-forward="true" selection-start-line="233" selection-start-column="3" selection-end-line="233" selection-end-column="3" />
+                <state relative-caret-position="872">
+                  <caret line="262" column="31" lean-forward="false" selection-start-line="262" selection-start-column="31" selection-end-line="262" selection-end-column="31" />
                   <folding>
                     <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <marker date="1491921708091" expanded="true" signature="486:6530" ph="..." />
+                    <marker date="1491928151134" expanded="true" signature="486:6640" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -71,27 +54,7 @@
             <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="783">
-                  <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="video.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/video/video.styl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="video.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/blocks/video/video.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+                  <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -101,7 +64,17 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="global.styl" pinned="false" current-in-tab="true">
+          <file leaf-file-name="video.pug" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/frontend/blocks/video/video.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="297">
+                  <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="global.styl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/frontend/global.styl">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="988">
@@ -115,8 +88,10 @@
             <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="459">
-                  <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-                  <folding />
+                  <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+                  <folding>
+                    <marker date="1491917857899" expanded="true" signature="14:959" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -125,7 +100,7 @@
             <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.styl">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="216">
-                  <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+                  <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -234,13 +209,13 @@
         <option value="$PROJECT_DIR$/frontend/blocks/sliders/sliders.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/stages/stages.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/inputs/inputs.styl" />
-        <option value="$PROJECT_DIR$/frontend/main.pug" />
         <option value="$PROJECT_DIR$/frontend/blocks/search/search.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/events/events.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/news/news.styl" />
         <option value="$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl" />
-        <option value="$PROJECT_DIR$/frontend/blocks/video/video.pug" />
         <option value="$PROJECT_DIR$/frontend/global.styl" />
+        <option value="$PROJECT_DIR$/frontend/main.pug" />
+        <option value="$PROJECT_DIR$/frontend/blocks/video/video.pug" />
       </list>
     </option>
   </component>
@@ -811,12 +786,12 @@
       <workItem from="1491307299743" duration="16784000" />
       <workItem from="1491332885796" duration="142728000" />
       <workItem from="1491793593184" duration="4929000" />
-      <workItem from="1491809596212" duration="51305000" />
+      <workItem from="1491809596212" duration="51870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="538174000" />
+    <option name="totallyTimeSpent" value="538739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,12 +882,12 @@
         <state relative-caret-position="18306">
           <caret line="646" column="16" lean-forward="true" selection-start-line="646" selection-start-column="16" selection-end-line="646" selection-end-column="16" />
           <folding>
-            <marker date="1491906525986" expanded="true" signature="285276:285347" ph="..." />
-            <marker date="1491906525986" expanded="true" signature="285361:285385" ph="..." />
-            <marker date="1491906525986" expanded="true" signature="323212:323229" ph="..." />
-            <marker date="1491906525986" expanded="true" signature="332673:332689" ph="..." />
-            <marker date="1491906525986" expanded="true" signature="358633:358639" ph="..." />
-            <marker date="1491906525986" expanded="true" signature="411763:411807" ph="..." />
+            <marker date="1491927910862" expanded="true" signature="285276:285347" ph="..." />
+            <marker date="1491927910862" expanded="true" signature="285361:285385" ph="..." />
+            <marker date="1491927910862" expanded="true" signature="323212:323229" ph="..." />
+            <marker date="1491927910862" expanded="true" signature="332673:332689" ph="..." />
+            <marker date="1491927910862" expanded="true" signature="358633:358639" ph="..." />
+            <marker date="1491927910862" expanded="true" signature="411763:411807" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1130,7 +1105,7 @@
         <state relative-caret-position="513">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,8 +1113,10 @@
     <entry file="file://$PROJECT_DIR$/frontend/blocks/sliders/sliders.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1491917857899" expanded="true" signature="14:959" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,7 +1131,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/blocks/charts/charts.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1225,18 +1202,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl">
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3996">
-          <caret line="148" column="34" lean-forward="false" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
+        <state relative-caret-position="783">
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/messaging/messaging.styl">
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/calendar/calendar.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="3996">
+          <caret line="148" column="34" lean-forward="false" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1249,31 +1226,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/blocks/video/video.pug">
+    <entry file="file://$PROJECT_DIR$/frontend/global.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="988">
+          <caret line="204" column="21" lean-forward="false" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/main.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="233" column="3" lean-forward="true" selection-start-line="233" selection-start-column="3" selection-end-line="233" selection-end-column="3" />
+        <state relative-caret-position="872">
+          <caret line="262" column="31" lean-forward="false" selection-start-line="262" selection-start-column="31" selection-end-line="262" selection-end-column="31" />
           <folding>
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1491921708091" expanded="true" signature="486:6530" ph="..." />
+            <marker date="1491928151134" expanded="true" signature="486:6640" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/global.styl">
+    <entry file="file://$PROJECT_DIR$/frontend/blocks/video/video.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="204" column="21" lean-forward="false" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
+        <state relative-caret-position="297">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding />
         </state>
       </provider>
